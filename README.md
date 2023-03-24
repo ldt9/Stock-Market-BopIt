@@ -9,17 +9,15 @@ The game was created by my group for a Junior Design project as part of my ECE C
 ## Technologies Used
 
 - Arduino Uno
-- Bopit
 - Microphone
 - Buttons
 - Gyroscope
-- RFID Scanner
 - LEDs
 
 ## How to Play
 
 1. Flip the switch on the rear of the unit to turn the machine on.
-2. Scan the RFID tag to begin the game.
+2. Press the start button to begin the game.
 2. The game will display a required action such as Buy, Sell or Hold.
 3. To buy the stock, hit the "Buy" button.
 4. To sell the stock, scream "Sell" into the microphone.
