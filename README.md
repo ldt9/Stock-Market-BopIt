@@ -2,14 +2,14 @@
 
 ## Project Overview
 
-The Stock Market Bopit is a game that allows players to simulate trading stocks by using physical actions to make decisions. The game has three different actions that players can take: hitting a "Buy" button to buy a stock, yelling into the microphone to sell a stock, and shaking the device to hold onto a stock.
+The Stock Market Bopit is a game that allows players to simulate trading stocks by using physical actions to make decisions. The game has three different actions that players can take: hitting a "Buy" button to buy a stock, yelling into the sound detector to sell a stock, and shaking the device to hold onto a stock.
 
 The game was created by my group for a Junior Design project as part of my ECE Courses at the University of Pittsburgh. It is modeled to look like a toy cash register, but with more functionality.
 
 ## Technologies Used
 
 - Arduino Uno
-- Microphone
+- Sound Detector
 - Buttons
 - Gyroscope
 - LEDs
