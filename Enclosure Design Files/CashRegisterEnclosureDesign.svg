@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1809.13mm"
+   height="331.90mm"
+   viewBox="0.0 0.0 1809.13 331.90"
+   version="1.1"
+   id="svg1300"
+   sodipodi:docname="Console2 (1).svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs1304" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     id="namedview1302"
+     showgrid="false"
+     inkscape:zoom="20.48"
+     inkscape:cx="4760.807"
+     inkscape:cy="-8837.1517"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1300" />
+  <!--
+Console2 - Console with slanted panel and service hatches
+
+
+
+This box is designed as a housing for electronic projects. It has hatches that can be re-opened with simple tools. It intentionally cannot be opened with bare hands - if build with thin enough material.
+
+#### Caution
+There is a chance that the latches of the back wall or the back wall itself interfere with the front panel or it's mounting frame/lips. The generator does not check for this. So depending on the variant chosen you might need to make the box deeper (increase y parameter) or the panel angle steeper (increase angle parameter) until there is enough room.
+
+It's also possible that the frame of the panel interferes with the floor if the hi parameter is too small.
+
+#### Assembly instructions
+The main body is easy to assemble by starting with the floor and then adding the four walls and (if present) the top piece.
+
+If the back wall is removable you need to add the lips and latches. The U-shaped clamps holding the latches in place need to be clued in place without also gluing the latches themselves. Make sure the springs on the latches point inwards and the angled ends point to the side walls as shown here:
+
+![Back wall details](static/samples/Console2-backwall-detail.jpg)
+
+If the panel is removable you need to add the springs with the tabs to the side lips. This photo shows the variant which has the panel glued to the frame:
+
+![Back wall details](static/samples/Console2-panel-detail.jpg)
+
+If space is tight you may consider not gluing the cross pieces in place and remove them after the glue-up. This may prevent the latches of the back wall and the panel from interfering with each other.
+
+The variant using finger joints only has the two side lips without the cross bars.
+
+#### Re-Opening
+
+The latches at the back wall lock in place when closed. To open them they need to be pressed in and can then be moved aside.
+
+To remove the panel you have to press in the four tabs at the side. It is easiest to push them in and then pull the panel up a little bit so the tabs stay in.
+
+
+
+Created with Boxes.py (https://festi.info/boxes.py)
+Creation date: 2023-03-14 16:04:41
+Command line (remove spaces between dashes): boxes Console2 - -x=300 - -y=300 - -h=200 - -outside=0 - -outside=1 - -front_height=75 - -angle=30
+Url: http://www.festi.info/boxes.py/Console2?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=0.5&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Stackable_angle=60&Stackable_bottom_stabilizers=0.0&Stackable_height=2.0&Stackable_holedistance=1.0&Stackable_width=4.0&x=300&y=300&h=200&bottom_edge=s&outside=0&outside=1&front_height=75&angle=30&removable_backwall=0&removable_backwall=1&removable_panel=0&removable_panel=1&glued_panel=0&glued_panel=1&thickness=3.0&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&labels=1&reference=100&inner_corners=loop&burn=0.1&language=en&render=2
+Url short: http://www.festi.info/boxes.py/Console2?x=300&y=300&h=200&outside=0&outside=1&front_height=75&angle=30
+SettingsUrl: http://www.festi.info/boxes.py/Console2?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=0.5&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&Stackable_angle=60&Stackable_bottom_stabilizers=0.0&Stackable_height=2.0&Stackable_holedistance=1.0&Stackable_width=4.0&x=300&y=300&h=200&bottom_edge=s&outside=0&outside=1&front_height=75&angle=30&removable_backwall=0&removable_backwall=1&removable_panel=0&removable_panel=1&glued_panel=0&glued_panel=1&thickness=3.0&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&labels=1&reference=100&inner_corners=loop&burn=0.1&language=en&render=2
+SettingsUrl short: http://www.festi.info/boxes.py/Console2?x=300&y=300&h=200&outside=0&outside=1&front_height=75&angle=30
+-->
+  <title
+     id="title933">Console2</title>
+  <metadata
+     id="metadata935">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:title>Box - Console2</dc:title>
+        <dc:date>2023-03-14 16:04:41</dc:date>
+        <dc:source>http://www.festi.info/boxes.py/Console2?FingerJoint_angle=90.0&amp;FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=0.5&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Stackable_angle=60&amp;Stackable_bottom_stabilizers=0.0&amp;Stackable_height=2.0&amp;Stackable_holedistance=1.0&amp;Stackable_width=4.0&amp;x=300&amp;y=300&amp;h=200&amp;bottom_edge=s&amp;outside=0&amp;outside=1&amp;front_height=75&amp;angle=30&amp;removable_backwall=0&amp;removable_backwall=1&amp;removable_panel=0&amp;removable_panel=1&amp;glued_panel=0&amp;glued_panel=1&amp;thickness=3.0&amp;format=svg&amp;tabs=0.0&amp;qr_code=0&amp;debug=0&amp;labels=0&amp;labels=1&amp;reference=100&amp;inner_corners=loop&amp;burn=0.1&amp;language=en&amp;render=2</dc:source>
+        <dc:source>http://www.festi.info/boxes.py/Console2?x=300&amp;y=300&amp;h=200&amp;outside=0&amp;outside=1&amp;front_height=75&amp;angle=30</dc:source>
+        <dc:description>Console with slanted panel and service hatches
+
+
+This box is designed as a housing for electronic projects. It has hatches that can be re-opened with simple tools. It intentionally cannot be opened with bare hands - if build with thin enough material.
+
+#### Caution
+There is a chance that the latches of the back wall or the back wall itself interfere with the front panel or it's mounting frame/lips. The generator does not check for this. So depending on the variant chosen you might need to make the box deeper (increase y parameter) or the panel angle steeper (increase angle parameter) until there is enough room.
+
+It's also possible that the frame of the panel interferes with the floor if the hi parameter is too small.
+
+#### Assembly instructions
+The main body is easy to assemble by starting with the floor and then adding the four walls and (if present) the top piece.
+
+If the back wall is removable you need to add the lips and latches. The U-shaped clamps holding the latches in place need to be clued in place without also gluing the latches themselves. Make sure the springs on the latches point inwards and the angled ends point to the side walls as shown here:
+
+![Back wall details](static/samples/Console2-backwall-detail.jpg)
+
+If the panel is removable you need to add the springs with the tabs to the side lips. This photo shows the variant which has the panel glued to the frame:
+
+![Back wall details](static/samples/Console2-panel-detail.jpg)
+
+If space is tight you may consider not gluing the cross pieces in place and remove them after the glue-up. This may prevent the latches of the back wall and the panel from interfering with each other.
+
+The variant using finger joints only has the two side lips without the cross bars.
+
+#### Re-Opening
+
+The latches at the back wall lock in place when closed. To open them they need to be pressed in and can then be moved aside.
+
+To remove the panel you have to press in the four tabs at the side. It is easiest to push them in and then pull the panel up a little bit so the tabs stay in.
+
+
+Created with Boxes.py (https://festi.info/boxes.py)
+Command line: boxes Console2 --FingerJoint_angle=90.0 --FingerJoint_style=rectangular --FingerJoint_surroundingspaces=0.5 --FingerJoint_bottom_lip=0.0 --FingerJoint_edge_width=1.0 --FingerJoint_extra_length=0.0 --FingerJoint_finger=2.0 --FingerJoint_play=0.0 --FingerJoint_space=2.0 --FingerJoint_width=1.0 --Stackable_angle=60 --Stackable_bottom_stabilizers=0.0 --Stackable_height=2.0 --Stackable_holedistance=1.0 --Stackable_width=4.0 --x=300 --y=300 --h=200 --bottom_edge=s --outside=0 --outside=1 --front_height=75 --angle=30 --removable_backwall=0 --removable_backwall=1 --removable_panel=0 --removable_panel=1 --glued_panel=0 --glued_panel=1 --thickness=3.0 --format=svg --tabs=0.0 --qr_code=0 --debug=0 --labels=0 --labels=1 --reference=100 --inner_corners=loop --burn=0.1
+Command line short: boxes Console2 --x=300 --y=300 --h=200 --outside=0 --outside=1 --front_height=75 --angle=30
+Url: http://www.festi.info/boxes.py/Console2?FingerJoint_angle=90.0&amp;FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=0.5&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Stackable_angle=60&amp;Stackable_bottom_stabilizers=0.0&amp;Stackable_height=2.0&amp;Stackable_holedistance=1.0&amp;Stackable_width=4.0&amp;x=300&amp;y=300&amp;h=200&amp;bottom_edge=s&amp;outside=0&amp;outside=1&amp;front_height=75&amp;angle=30&amp;removable_backwall=0&amp;removable_backwall=1&amp;removable_panel=0&amp;removable_panel=1&amp;glued_panel=0&amp;glued_panel=1&amp;thickness=3.0&amp;format=svg&amp;tabs=0.0&amp;qr_code=0&amp;debug=0&amp;labels=0&amp;labels=1&amp;reference=100&amp;inner_corners=loop&amp;burn=0.1&amp;language=en&amp;render=2
+Url short: http://www.festi.info/boxes.py/Console2?x=300&amp;y=300&amp;h=200&amp;outside=0&amp;outside=1&amp;front_height=75&amp;angle=30
+SettingsUrl: http://www.festi.info/boxes.py/Console2?FingerJoint_angle=90.0&amp;FingerJoint_style=rectangular&amp;FingerJoint_surroundingspaces=0.5&amp;FingerJoint_bottom_lip=0.0&amp;FingerJoint_edge_width=1.0&amp;FingerJoint_extra_length=0.0&amp;FingerJoint_finger=2.0&amp;FingerJoint_play=0.0&amp;FingerJoint_space=2.0&amp;FingerJoint_width=1.0&amp;Stackable_angle=60&amp;Stackable_bottom_stabilizers=0.0&amp;Stackable_height=2.0&amp;Stackable_holedistance=1.0&amp;Stackable_width=4.0&amp;x=300&amp;y=300&amp;h=200&amp;bottom_edge=s&amp;outside=0&amp;outside=1&amp;front_height=75&amp;angle=30&amp;removable_backwall=0&amp;removable_backwall=1&amp;removable_panel=0&amp;removable_panel=1&amp;glued_panel=0&amp;glued_panel=1&amp;thickness=3.0&amp;format=svg&amp;tabs=0.0&amp;qr_code=0&amp;debug=0&amp;labels=0&amp;labels=1&amp;reference=100&amp;inner_corners=loop&amp;burn=0.1&amp;language=en&amp;render=2
+SettingsUrl short: http://www.festi.info/boxes.py/Console2?x=300&amp;y=300&amp;h=200&amp;outside=0&amp;outside=1&amp;front_height=75&amp;angle=30
+</dc:description>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="p-0"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 10.400 321.900 H 110.400 V 311.900 H 10.400 V 321.900 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path937" />
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 60.400 312.900 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="8px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text939">100mm, burn:0.10mm</text>
+  </g>
+  <g
+     id="p-1"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 22.400 301.100 H 19.500 C 19.400 301.100 19.500 301.200 19.500 301.100 V 298.300 C 19.500 298.200 19.400 298.300 19.500 298.300 H 25.300 C 25.400 298.300 25.300 298.200 25.300 298.300 V 301.100 C 25.300 301.200 25.400 301.100 25.300 301.100 H 22.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path942" />
+    <path
+       d="M 34.400 301.100 H 31.500 C 31.400 301.100 31.500 301.200 31.500 301.100 V 298.300 C 31.500 298.200 31.400 298.300 31.500 298.300 H 37.300 C 37.400 298.300 37.300 298.200 37.300 298.300 V 301.100 C 37.300 301.200 37.400 301.100 37.300 301.100 H 34.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path944" />
+    <path
+       d="M 46.400 301.100 H 43.500 C 43.400 301.100 43.500 301.200 43.500 301.100 V 298.300 C 43.500 298.200 43.400 298.300 43.500 298.300 H 49.300 C 49.400 298.300 49.300 298.200 49.300 298.300 V 301.100 C 49.300 301.200 49.400 301.100 49.300 301.100 H 46.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path946" />
+    <path
+       d="M 58.400 301.100 H 55.500 C 55.400 301.100 55.500 301.200 55.500 301.100 V 298.300 C 55.500 298.200 55.400 298.300 55.500 298.300 H 61.300 C 61.400 298.300 61.300 298.200 61.300 298.300 V 301.100 C 61.300 301.200 61.400 301.100 61.300 301.100 H 58.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path948" />
+    <path
+       d="M 70.400 301.100 H 67.500 C 67.400 301.100 67.500 301.200 67.500 301.100 V 298.300 C 67.500 298.200 67.400 298.300 67.500 298.300 H 73.300 C 73.400 298.300 73.300 298.200 73.300 298.300 V 301.100 C 73.300 301.200 73.400 301.100 73.300 301.100 H 70.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path950" />
+    <path
+       d="M 82.400 301.100 H 79.500 C 79.400 301.100 79.500 301.200 79.500 301.100 V 298.300 C 79.500 298.200 79.400 298.300 79.500 298.300 H 85.300 C 85.400 298.300 85.300 298.200 85.300 298.300 V 301.100 C 85.300 301.200 85.400 301.100 85.300 301.100 H 82.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path952" />
+    <path
+       d="M 94.400 301.100 H 91.500 C 91.400 301.100 91.500 301.200 91.500 301.100 V 298.300 C 91.500 298.200 91.400 298.300 91.500 298.300 H 97.300 C 97.400 298.300 97.300 298.200 97.300 298.300 V 301.100 C 97.300 301.200 97.400 301.100 97.300 301.100 H 94.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path954" />
+    <path
+       d="M 106.400 301.100 H 103.500 C 103.400 301.100 103.500 301.200 103.500 301.100 V 298.300 C 103.500 298.200 103.400 298.300 103.500 298.300 H 109.300 C 109.400 298.300 109.300 298.200 109.300 298.300 V 301.100 C 109.300 301.200 109.400 301.100 109.300 301.100 H 106.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path956" />
+    <path
+       d="M 118.400 301.100 H 115.500 C 115.400 301.100 115.500 301.200 115.500 301.100 V 298.300 C 115.500 298.200 115.400 298.300 115.500 298.300 H 121.300 C 121.400 298.300 121.300 298.200 121.300 298.300 V 301.100 C 121.300 301.200 121.400 301.100 121.300 301.100 H 118.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path958" />
+    <path
+       d="M 130.400 301.100 H 127.500 C 127.400 301.100 127.500 301.200 127.500 301.100 V 298.300 C 127.500 298.200 127.400 298.300 127.500 298.300 H 133.300 C 133.400 298.300 133.300 298.200 133.300 298.300 V 301.100 C 133.300 301.200 133.400 301.100 133.300 301.100 H 130.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path960" />
+    <path
+       d="M 142.400 301.100 H 139.500 C 139.400 301.100 139.500 301.200 139.500 301.100 V 298.300 C 139.500 298.200 139.400 298.300 139.500 298.300 H 145.300 C 145.400 298.300 145.300 298.200 145.300 298.300 V 301.100 C 145.300 301.200 145.400 301.100 145.300 301.100 H 142.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path962" />
+    <path
+       d="M 154.400 301.100 H 151.500 C 151.400 301.100 151.500 301.200 151.500 301.100 V 298.300 C 151.500 298.200 151.400 298.300 151.500 298.300 H 157.300 C 157.400 298.300 157.300 298.200 157.300 298.300 V 301.100 C 157.300 301.200 157.400 301.100 157.300 301.100 H 154.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path964" />
+    <path
+       d="M 166.400 301.100 H 163.500 C 163.400 301.100 163.500 301.200 163.500 301.100 V 298.300 C 163.500 298.200 163.400 298.300 163.500 298.300 H 169.300 C 169.400 298.300 169.300 298.200 169.300 298.300 V 301.100 C 169.300 301.200 169.400 301.100 169.300 301.100 H 166.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path966" />
+    <path
+       d="M 178.400 301.100 H 175.500 C 175.400 301.100 175.500 301.200 175.500 301.100 V 298.300 C 175.500 298.200 175.400 298.300 175.500 298.300 H 181.300 C 181.400 298.300 181.300 298.200 181.300 298.300 V 301.100 C 181.300 301.200 181.400 301.100 181.300 301.100 H 178.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path968" />
+    <path
+       d="M 190.400 301.100 H 187.500 C 187.400 301.100 187.500 301.200 187.500 301.100 V 298.300 C 187.500 298.200 187.400 298.300 187.500 298.300 H 193.300 C 193.400 298.300 193.300 298.200 193.300 298.300 V 301.100 C 193.300 301.200 193.400 301.100 193.300 301.100 H 190.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path970" />
+    <path
+       d="M 202.400 301.100 H 199.500 C 199.400 301.100 199.500 301.200 199.500 301.100 V 298.300 C 199.500 298.200 199.400 298.300 199.500 298.300 H 205.300 C 205.400 298.300 205.300 298.200 205.300 298.300 V 301.100 C 205.300 301.200 205.400 301.100 205.300 301.100 H 202.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path972" />
+    <path
+       d="M 214.400 301.100 H 211.500 C 211.400 301.100 211.500 301.200 211.500 301.100 V 298.300 C 211.500 298.200 211.400 298.300 211.500 298.300 H 217.300 C 217.400 298.300 217.300 298.200 217.300 298.300 V 301.100 C 217.300 301.200 217.400 301.100 217.300 301.100 H 214.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path974" />
+    <path
+       d="M 226.400 301.100 H 223.500 C 223.400 301.100 223.500 301.200 223.500 301.100 V 298.300 C 223.500 298.200 223.400 298.300 223.500 298.300 H 229.300 C 229.400 298.300 229.300 298.200 229.300 298.300 V 301.100 C 229.300 301.200 229.400 301.100 229.300 301.100 H 226.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path976" />
+    <path
+       d="M 238.400 301.100 H 235.500 C 235.400 301.100 235.500 301.200 235.500 301.100 V 298.300 C 235.500 298.200 235.400 298.300 235.500 298.300 H 241.300 C 241.400 298.300 241.300 298.200 241.300 298.300 V 301.100 C 241.300 301.200 241.400 301.100 241.300 301.100 H 238.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path978" />
+    <path
+       d="M 250.400 301.100 H 247.500 C 247.400 301.100 247.500 301.200 247.500 301.100 V 298.300 C 247.500 298.200 247.400 298.300 247.500 298.300 H 253.300 C 253.400 298.300 253.300 298.200 253.300 298.300 V 301.100 C 253.300 301.200 253.400 301.100 253.300 301.100 H 250.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path980" />
+    <path
+       d="M 262.400 301.100 H 259.500 C 259.400 301.100 259.500 301.200 259.500 301.100 V 298.300 C 259.500 298.200 259.400 298.300 259.500 298.300 H 265.300 C 265.400 298.300 265.300 298.200 265.300 298.300 V 301.100 C 265.300 301.200 265.400 301.100 265.300 301.100 H 262.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path982" />
+    <path
+       d="M 274.400 301.100 H 271.500 C 271.400 301.100 271.500 301.200 271.500 301.100 V 298.300 C 271.500 298.200 271.400 298.300 271.500 298.300 H 277.300 C 277.400 298.300 277.300 298.200 277.300 298.300 V 301.100 C 277.300 301.200 277.400 301.100 277.300 301.100 H 274.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path984" />
+    <path
+       d="M 286.400 301.100 H 283.500 C 283.400 301.100 283.500 301.200 283.500 301.100 V 298.300 C 283.500 298.200 283.400 298.300 283.500 298.300 H 289.300 C 289.400 298.300 289.300 298.200 289.300 298.300 V 301.100 C 289.300 301.200 289.400 301.100 289.300 301.100 H 286.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path986" />
+    <path
+       d="M 298.400 301.100 H 295.500 C 295.400 301.100 295.500 301.200 295.500 301.100 V 298.300 C 295.500 298.200 295.400 298.300 295.500 298.300 H 301.300 C 301.400 298.300 301.300 298.200 301.300 298.300 V 301.100 C 301.300 301.200 301.400 301.100 301.300 301.100 H 298.400 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path988" />
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 160.400 208.200 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text990">Left Side</text>
+    <path
+       d="M 13.400 310.200 H 25.400 C 26.471 310.200 27.523 309.918 28.450 309.383 C 29.377 308.847 30.147 308.077 30.683 307.150 C 31.201 306.253 31.945 305.508 32.842 304.990 C 33.739 304.473 34.757 304.200 35.792 304.200 H 285.008 C 286.043 304.200 287.061 304.473 287.958 304.990 C 288.855 305.508 289.599 306.253 290.117 307.150 C 290.653 308.077 291.423 308.847 292.350 309.383 C 293.277 309.918 294.329 310.200 295.400 310.200 H 307.400 C 307.455 310.200 307.500 310.155 307.500 310.100 V 306.999 C 307.500 306.899 307.400 306.999 307.500 306.999 H 310.400 C 310.455 306.999 310.500 306.954 310.500 306.899 V 300.899 C 310.500 300.844 310.455 300.799 310.400 300.799 H 307.500 C 307.400 300.799 307.500 300.899 307.500 300.799 V 294.999 C 307.500 294.899 307.400 294.999 307.500 294.999 H 310.400 C 310.455 294.999 310.500 294.954 310.500 294.899 V 288.899 C 310.500 288.844 310.455 288.799 310.400 288.799 H 307.500 C 307.400 288.799 307.500 288.899 307.500 288.799 V 282.999 C 307.500 282.899 307.400 282.999 307.500 282.999 H 310.400 C 310.455 282.999 310.500 282.954 310.500 282.899 V 276.899 C 310.500 276.844 310.455 276.799 310.400 276.799 H 307.500 C 307.400 276.799 307.500 276.899 307.500 276.799 V 270.999 C 307.500 270.899 307.400 270.999 307.500 270.999 H 310.400 C 310.455 270.999 310.500 270.954 310.500 270.899 V 264.899 C 310.500 264.844 310.455 264.799 310.400 264.799 H 307.500 C 307.400 264.799 307.500 264.899 307.500 264.799 V 258.999 C 307.500 258.899 307.400 258.999 307.500 258.999 H 310.400 C 310.455 258.999 310.500 258.954 310.500 258.899 V 252.899 C 310.500 252.844 310.455 252.799 310.400 252.799 H 307.500 C 307.400 252.799 307.500 252.899 307.500 252.799 V 246.999 C 307.500 246.899 307.400 246.999 307.500 246.999 H 310.400 C 310.455 246.999 310.500 246.954 310.500 246.899 V 240.899 C 310.500 240.844 310.455 240.799 310.400 240.799 H 307.500 C 307.400 240.799 307.500 240.899 307.500 240.799 V 234.999 C 307.500 234.899 307.400 234.999 307.500 234.999 H 310.400 C 310.455 234.999 310.500 234.954 310.500 234.899 V 228.899 C 310.500 228.844 310.455 228.799 310.400 228.799 H 307.500 C 307.400 228.799 307.500 228.899 307.500 228.799 V 225.698 V 223.100 C 307.500 223.064 307.481 223.031 307.450 223.013 L 116.924 113.013 C 116.909 113.005 116.892 113.000 116.874 113.000 H 115.374 H 109.487 C 109.387 113.000 109.487 113.100 109.487 113.000 V 110.100 C 109.487 110.045 109.442 110.000 109.387 110.000 H 103.387 C 103.332 110.000 103.287 110.045 103.287 110.100 V 113.000 C 103.287 113.100 103.387 113.000 103.287 113.000 H 97.487 C 97.387 113.000 97.487 113.100 97.487 113.000 V 110.100 C 97.487 110.045 97.442 110.000 97.387 110.000 H 91.387 C 91.332 110.000 91.287 110.045 91.287 110.100 V 113.000 C 91.287 113.100 91.387 113.000 91.287 113.000 H 85.487 C 85.387 113.000 85.487 113.100 85.487 113.000 V 110.100 C 85.487 110.045 85.442 110.000 85.387 110.000 H 79.387 C 79.332 110.000 79.287 110.045 79.287 110.100 V 113.000 C 79.287 113.100 79.387 113.000 79.287 113.000 H 73.487 C 73.387 113.000 73.487 113.100 73.487 113.000 V 110.100 C 73.487 110.045 73.442 110.000 73.387 110.000 H 67.387 C 67.332 110.000 67.287 110.045 67.287 110.100 V 113.000 C 67.287 113.100 67.387 113.000 67.287 113.000 H 61.487 C 61.387 113.000 61.487 113.100 61.487 113.000 V 110.100 C 61.487 110.045 61.442 110.000 61.387 110.000 H 55.387 C 55.332 110.000 55.287 110.045 55.287 110.100 V 113.000 C 55.287 113.100 55.387 113.000 55.287 113.000 H 49.487 C 49.387 113.000 49.487 113.100 49.487 113.000 V 110.100 C 49.487 110.045 49.442 110.000 49.387 110.000 H 43.387 C 43.332 110.000 43.287 110.045 43.287 110.100 V 113.000 C 43.287 113.100 43.387 113.000 43.287 113.000 H 37.487 C 37.387 113.000 37.487 113.100 37.487 113.000 V 110.100 C 37.487 110.045 37.442 110.000 37.387 110.000 H 31.387 C 31.332 110.000 31.287 110.045 31.287 110.100 V 113.000 C 31.287 113.100 31.387 113.000 31.287 113.000 H 25.487 C 25.387 113.000 25.487 113.100 25.487 113.000 V 110.100 C 25.487 110.045 25.442 110.000 25.387 110.000 H 19.387 C 19.332 110.000 19.287 110.045 19.287 110.100 V 113.000 C 19.287 113.100 19.387 113.000 19.287 113.000 H 13.400 C 13.345 113.000 13.300 113.045 13.300 113.100 V 295.100 V 299.500 C 13.300 299.600 13.400 299.500 13.300 299.500 H 10.400 C 10.345 299.500 10.300 299.545 10.300 299.600 V 305.600 C 10.300 305.655 10.345 305.700 10.400 305.700 H 13.300 C 13.400 305.700 13.300 305.600 13.300 305.700 V 310.100 C 13.300 310.155 13.345 310.200 13.400 310.200"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path992" />
+    <path
+       d="M 298.143 221.133 L 301.304 222.958 C 301.391 223.008 301.354 222.872 301.304 222.958 L 299.829 225.513 C 299.779 225.600 299.916 225.563 299.829 225.513 L 293.507 221.863 C 293.421 221.813 293.457 221.950 293.507 221.863 L 294.982 219.308 C 295.032 219.222 294.896 219.258 294.982 219.308 L 298.143 221.133 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path994" />
+    <path
+       d="M 123.206 120.133 L 126.367 121.958 C 126.454 122.008 126.417 121.872 126.367 121.958 L 124.892 124.513 C 124.842 124.600 124.979 124.563 124.892 124.513 L 118.570 120.863 C 118.484 120.813 118.520 120.950 118.570 120.863 L 120.045 118.308 C 120.095 118.222 119.959 118.258 120.045 118.308 L 123.206 120.133 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path996" />
+    <path
+       d="M 16.400 131.100 V 129.550 C 16.400 129.450 16.300 129.550 16.400 129.550 H 19.500 C 19.600 129.550 19.500 129.450 19.500 129.550 V 132.650 C 19.500 132.750 19.600 132.650 19.500 132.650 H 16.400 C 16.300 132.650 16.400 132.750 16.400 132.650 V 131.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path998" />
+  </g>
+  <g
+     id="p-2"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 324.100 301.100 H 321.200 C 321.100 301.100 321.200 301.200 321.200 301.100 V 298.300 C 321.200 298.200 321.100 298.300 321.200 298.300 H 327.000 C 327.100 298.300 327.000 298.200 327.000 298.300 V 301.100 C 327.000 301.200 327.100 301.100 327.000 301.100 H 324.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1001" />
+    <path
+       d="M 336.100 301.100 H 333.200 C 333.100 301.100 333.200 301.200 333.200 301.100 V 298.300 C 333.200 298.200 333.100 298.300 333.200 298.300 H 339.000 C 339.100 298.300 339.000 298.200 339.000 298.300 V 301.100 C 339.000 301.200 339.100 301.100 339.000 301.100 H 336.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1003" />
+    <path
+       d="M 348.100 301.100 H 345.200 C 345.100 301.100 345.200 301.200 345.200 301.100 V 298.300 C 345.200 298.200 345.100 298.300 345.200 298.300 H 351.000 C 351.100 298.300 351.000 298.200 351.000 298.300 V 301.100 C 351.000 301.200 351.100 301.100 351.000 301.100 H 348.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1005" />
+    <path
+       d="M 360.100 301.100 H 357.200 C 357.100 301.100 357.200 301.200 357.200 301.100 V 298.300 C 357.200 298.200 357.100 298.300 357.200 298.300 H 363.000 C 363.100 298.300 363.000 298.200 363.000 298.300 V 301.100 C 363.000 301.200 363.100 301.100 363.000 301.100 H 360.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1007" />
+    <path
+       d="M 372.100 301.100 H 369.200 C 369.100 301.100 369.200 301.200 369.200 301.100 V 298.300 C 369.200 298.200 369.100 298.300 369.200 298.300 H 375.000 C 375.100 298.300 375.000 298.200 375.000 298.300 V 301.100 C 375.000 301.200 375.100 301.100 375.000 301.100 H 372.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1009" />
+    <path
+       d="M 384.100 301.100 H 381.200 C 381.100 301.100 381.200 301.200 381.200 301.100 V 298.300 C 381.200 298.200 381.100 298.300 381.200 298.300 H 387.000 C 387.100 298.300 387.000 298.200 387.000 298.300 V 301.100 C 387.000 301.200 387.100 301.100 387.000 301.100 H 384.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1011" />
+    <path
+       d="M 396.100 301.100 H 393.200 C 393.100 301.100 393.200 301.200 393.200 301.100 V 298.300 C 393.200 298.200 393.100 298.300 393.200 298.300 H 399.000 C 399.100 298.300 399.000 298.200 399.000 298.300 V 301.100 C 399.000 301.200 399.100 301.100 399.000 301.100 H 396.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1013" />
+    <path
+       d="M 408.100 301.100 H 405.200 C 405.100 301.100 405.200 301.200 405.200 301.100 V 298.300 C 405.200 298.200 405.100 298.300 405.200 298.300 H 411.000 C 411.100 298.300 411.000 298.200 411.000 298.300 V 301.100 C 411.000 301.200 411.100 301.100 411.000 301.100 H 408.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1015" />
+    <path
+       d="M 420.100 301.100 H 417.200 C 417.100 301.100 417.200 301.200 417.200 301.100 V 298.300 C 417.200 298.200 417.100 298.300 417.200 298.300 H 423.000 C 423.100 298.300 423.000 298.200 423.000 298.300 V 301.100 C 423.000 301.200 423.100 301.100 423.000 301.100 H 420.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1017" />
+    <path
+       d="M 432.100 301.100 H 429.200 C 429.100 301.100 429.200 301.200 429.200 301.100 V 298.300 C 429.200 298.200 429.100 298.300 429.200 298.300 H 435.000 C 435.100 298.300 435.000 298.200 435.000 298.300 V 301.100 C 435.000 301.200 435.100 301.100 435.000 301.100 H 432.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1019" />
+    <path
+       d="M 444.100 301.100 H 441.200 C 441.100 301.100 441.200 301.200 441.200 301.100 V 298.300 C 441.200 298.200 441.100 298.300 441.200 298.300 H 447.000 C 447.100 298.300 447.000 298.200 447.000 298.300 V 301.100 C 447.000 301.200 447.100 301.100 447.000 301.100 H 444.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1021" />
+    <path
+       d="M 456.100 301.100 H 453.200 C 453.100 301.100 453.200 301.200 453.200 301.100 V 298.300 C 453.200 298.200 453.100 298.300 453.200 298.300 H 459.000 C 459.100 298.300 459.000 298.200 459.000 298.300 V 301.100 C 459.000 301.200 459.100 301.100 459.000 301.100 H 456.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1023" />
+    <path
+       d="M 468.100 301.100 H 465.200 C 465.100 301.100 465.200 301.200 465.200 301.100 V 298.300 C 465.200 298.200 465.100 298.300 465.200 298.300 H 471.000 C 471.100 298.300 471.000 298.200 471.000 298.300 V 301.100 C 471.000 301.200 471.100 301.100 471.000 301.100 H 468.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1025" />
+    <path
+       d="M 480.100 301.100 H 477.200 C 477.100 301.100 477.200 301.200 477.200 301.100 V 298.300 C 477.200 298.200 477.100 298.300 477.200 298.300 H 483.000 C 483.100 298.300 483.000 298.200 483.000 298.300 V 301.100 C 483.000 301.200 483.100 301.100 483.000 301.100 H 480.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1027" />
+    <path
+       d="M 492.100 301.100 H 489.200 C 489.100 301.100 489.200 301.200 489.200 301.100 V 298.300 C 489.200 298.200 489.100 298.300 489.200 298.300 H 495.000 C 495.100 298.300 495.000 298.200 495.000 298.300 V 301.100 C 495.000 301.200 495.100 301.100 495.000 301.100 H 492.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1029" />
+    <path
+       d="M 504.100 301.100 H 501.200 C 501.100 301.100 501.200 301.200 501.200 301.100 V 298.300 C 501.200 298.200 501.100 298.300 501.200 298.300 H 507.000 C 507.100 298.300 507.000 298.200 507.000 298.300 V 301.100 C 507.000 301.200 507.100 301.100 507.000 301.100 H 504.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1031" />
+    <path
+       d="M 516.100 301.100 H 513.200 C 513.100 301.100 513.200 301.200 513.200 301.100 V 298.300 C 513.200 298.200 513.100 298.300 513.200 298.300 H 519.000 C 519.100 298.300 519.000 298.200 519.000 298.300 V 301.100 C 519.000 301.200 519.100 301.100 519.000 301.100 H 516.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1033" />
+    <path
+       d="M 528.100 301.100 H 525.200 C 525.100 301.100 525.200 301.200 525.200 301.100 V 298.300 C 525.200 298.200 525.100 298.300 525.200 298.300 H 531.000 C 531.100 298.300 531.000 298.200 531.000 298.300 V 301.100 C 531.000 301.200 531.100 301.100 531.000 301.100 H 528.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1035" />
+    <path
+       d="M 540.100 301.100 H 537.200 C 537.100 301.100 537.200 301.200 537.200 301.100 V 298.300 C 537.200 298.200 537.100 298.300 537.200 298.300 H 543.000 C 543.100 298.300 543.000 298.200 543.000 298.300 V 301.100 C 543.000 301.200 543.100 301.100 543.000 301.100 H 540.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1037" />
+    <path
+       d="M 552.100 301.100 H 549.200 C 549.100 301.100 549.200 301.200 549.200 301.100 V 298.300 C 549.200 298.200 549.100 298.300 549.200 298.300 H 555.000 C 555.100 298.300 555.000 298.200 555.000 298.300 V 301.100 C 555.000 301.200 555.100 301.100 555.000 301.100 H 552.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1039" />
+    <path
+       d="M 564.100 301.100 H 561.200 C 561.100 301.100 561.200 301.200 561.200 301.100 V 298.300 C 561.200 298.200 561.100 298.300 561.200 298.300 H 567.000 C 567.100 298.300 567.000 298.200 567.000 298.300 V 301.100 C 567.000 301.200 567.100 301.100 567.000 301.100 H 564.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1041" />
+    <path
+       d="M 576.100 301.100 H 573.200 C 573.100 301.100 573.200 301.200 573.200 301.100 V 298.300 C 573.200 298.200 573.100 298.300 573.200 298.300 H 579.000 C 579.100 298.300 579.000 298.200 579.000 298.300 V 301.100 C 579.000 301.200 579.100 301.100 579.000 301.100 H 576.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1043" />
+    <path
+       d="M 588.100 301.100 H 585.200 C 585.100 301.100 585.200 301.200 585.200 301.100 V 298.300 C 585.200 298.200 585.100 298.300 585.200 298.300 H 591.000 C 591.100 298.300 591.000 298.200 591.000 298.300 V 301.100 C 591.000 301.200 591.100 301.100 591.000 301.100 H 588.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1045" />
+    <path
+       d="M 600.100 301.100 H 597.200 C 597.100 301.100 597.200 301.200 597.200 301.100 V 298.300 C 597.200 298.200 597.100 298.300 597.200 298.300 H 603.000 C 603.100 298.300 603.000 298.200 603.000 298.300 V 301.100 C 603.000 301.200 603.100 301.100 603.000 301.100 H 600.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1047" />
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 462.100 208.200 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text1049">Right Side</text>
+    <path
+       d="M 315.100 310.200 H 327.100 C 328.171 310.200 329.223 309.918 330.150 309.383 C 331.077 308.847 331.847 308.077 332.383 307.150 C 332.901 306.253 333.645 305.508 334.542 304.990 C 335.439 304.473 336.457 304.200 337.492 304.200 H 586.708 C 587.743 304.200 588.761 304.473 589.658 304.990 C 590.555 305.508 591.299 306.253 591.817 307.150 C 592.353 308.077 593.123 308.847 594.050 309.383 C 594.977 309.918 596.029 310.200 597.100 310.200 H 609.100 C 609.155 310.200 609.200 310.155 609.200 310.100 V 306.999 C 609.200 306.899 609.100 306.999 609.200 306.999 H 612.100 C 612.155 306.999 612.200 306.954 612.200 306.899 V 300.899 C 612.200 300.844 612.155 300.799 612.100 300.799 H 609.200 C 609.100 300.799 609.200 300.899 609.200 300.799 V 294.999 C 609.200 294.899 609.100 294.999 609.200 294.999 H 612.100 C 612.155 294.999 612.200 294.954 612.200 294.899 V 288.899 C 612.200 288.844 612.155 288.799 612.100 288.799 H 609.200 C 609.100 288.799 609.200 288.899 609.200 288.799 V 282.999 C 609.200 282.899 609.100 282.999 609.200 282.999 H 612.100 C 612.155 282.999 612.200 282.954 612.200 282.899 V 276.899 C 612.200 276.844 612.155 276.799 612.100 276.799 H 609.200 C 609.100 276.799 609.200 276.899 609.200 276.799 V 270.999 C 609.200 270.899 609.100 270.999 609.200 270.999 H 612.100 C 612.155 270.999 612.200 270.954 612.200 270.899 V 264.899 C 612.200 264.844 612.155 264.799 612.100 264.799 H 609.200 C 609.100 264.799 609.200 264.899 609.200 264.799 V 258.999 C 609.200 258.899 609.100 258.999 609.200 258.999 H 612.100 C 612.155 258.999 612.200 258.954 612.200 258.899 V 252.899 C 612.200 252.844 612.155 252.799 612.100 252.799 H 609.200 C 609.100 252.799 609.200 252.899 609.200 252.799 V 246.999 C 609.200 246.899 609.100 246.999 609.200 246.999 H 612.100 C 612.155 246.999 612.200 246.954 612.200 246.899 V 240.899 C 612.200 240.844 612.155 240.799 612.100 240.799 H 609.200 C 609.100 240.799 609.200 240.899 609.200 240.799 V 234.999 C 609.200 234.899 609.100 234.999 609.200 234.999 H 612.100 C 612.155 234.999 612.200 234.954 612.200 234.899 V 228.899 C 612.200 228.844 612.155 228.799 612.100 228.799 H 609.200 C 609.100 228.799 609.200 228.899 609.200 228.799 V 225.698 V 223.100 C 609.200 223.064 609.181 223.031 609.150 223.013 L 418.624 113.013 C 418.609 113.005 418.592 113.000 418.574 113.000 H 417.074 H 411.187 C 411.087 113.000 411.187 113.100 411.187 113.000 V 110.100 C 411.187 110.045 411.142 110.000 411.087 110.000 H 405.087 C 405.032 110.000 404.987 110.045 404.987 110.100 V 113.000 C 404.987 113.100 405.087 113.000 404.987 113.000 H 399.187 C 399.087 113.000 399.187 113.100 399.187 113.000 V 110.100 C 399.187 110.045 399.142 110.000 399.087 110.000 H 393.087 C 393.032 110.000 392.987 110.045 392.987 110.100 V 113.000 C 392.987 113.100 393.087 113.000 392.987 113.000 H 387.187 C 387.087 113.000 387.187 113.100 387.187 113.000 V 110.100 C 387.187 110.045 387.142 110.000 387.087 110.000 H 381.087 C 381.032 110.000 380.987 110.045 380.987 110.100 V 113.000 C 380.987 113.100 381.087 113.000 380.987 113.000 H 375.187 C 375.087 113.000 375.187 113.100 375.187 113.000 V 110.100 C 375.187 110.045 375.142 110.000 375.087 110.000 H 369.087 C 369.032 110.000 368.987 110.045 368.987 110.100 V 113.000 C 368.987 113.100 369.087 113.000 368.987 113.000 H 363.187 C 363.087 113.000 363.187 113.100 363.187 113.000 V 110.100 C 363.187 110.045 363.142 110.000 363.087 110.000 H 357.087 C 357.032 110.000 356.987 110.045 356.987 110.100 V 113.000 C 356.987 113.100 357.087 113.000 356.987 113.000 H 351.187 C 351.087 113.000 351.187 113.100 351.187 113.000 V 110.100 C 351.187 110.045 351.142 110.000 351.087 110.000 H 345.087 C 345.032 110.000 344.987 110.045 344.987 110.100 V 113.000 C 344.987 113.100 345.087 113.000 344.987 113.000 H 339.187 C 339.087 113.000 339.187 113.100 339.187 113.000 V 110.100 C 339.187 110.045 339.142 110.000 339.087 110.000 H 333.087 C 333.032 110.000 332.987 110.045 332.987 110.100 V 113.000 C 332.987 113.100 333.087 113.000 332.987 113.000 H 327.187 C 327.087 113.000 327.187 113.100 327.187 113.000 V 110.100 C 327.187 110.045 327.142 110.000 327.087 110.000 H 321.087 C 321.032 110.000 320.987 110.045 320.987 110.100 V 113.000 C 320.987 113.100 321.087 113.000 320.987 113.000 H 315.100 C 315.045 113.000 315.000 113.045 315.000 113.100 V 295.100 V 299.500 C 315.000 299.600 315.100 299.500 315.000 299.500 H 312.100 C 312.045 299.500 312.000 299.545 312.000 299.600 V 305.600 C 312.000 305.655 312.045 305.700 312.100 305.700 H 315.000 C 315.100 305.700 315.000 305.600 315.000 305.700 V 310.100 C 315.000 310.155 315.045 310.200 315.100 310.200"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1051" />
+    <path
+       d="M 599.843 221.133 L 603.004 222.958 C 603.091 223.008 603.054 222.872 603.004 222.958 L 601.529 225.513 C 601.479 225.600 601.616 225.563 601.529 225.513 L 595.207 221.863 C 595.121 221.813 595.157 221.950 595.207 221.863 L 596.682 219.308 C 596.732 219.222 596.596 219.258 596.682 219.308 L 599.843 221.133 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1053" />
+    <path
+       d="M 424.906 120.133 L 428.067 121.958 C 428.154 122.008 428.117 121.872 428.067 121.958 L 426.592 124.513 C 426.542 124.600 426.679 124.563 426.592 124.513 L 420.270 120.863 C 420.184 120.813 420.220 120.950 420.270 120.863 L 421.745 118.308 C 421.795 118.222 421.659 118.258 421.745 118.308 L 424.906 120.133 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1055" />
+    <path
+       d="M 318.100 131.100 V 129.550 C 318.100 129.450 318.000 129.550 318.100 129.550 H 321.200 C 321.300 129.550 321.200 129.450 321.200 129.550 V 132.650 C 321.200 132.750 321.300 132.650 321.200 132.650 H 318.100 C 318.000 132.650 318.100 132.750 318.100 132.650 V 131.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1057" />
+  </g>
+  <g
+     id="p-3"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 763.800 158.200 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text1060">Floor</text>
+    <path
+       d="M 616.800 307.200 H 622.700 C 622.800 307.200 622.700 307.100 622.700 307.200 V 310.100 C 622.700 310.155 622.745 310.200 622.800 310.200 H 628.800 C 628.855 310.200 628.900 310.155 628.900 310.100 V 307.200 C 628.900 307.100 628.800 307.200 628.900 307.200 H 634.700 C 634.800 307.200 634.700 307.100 634.700 307.200 V 310.100 C 634.700 310.155 634.745 310.200 634.800 310.200 H 640.800 C 640.855 310.200 640.900 310.155 640.900 310.100 V 307.200 C 640.900 307.100 640.800 307.200 640.900 307.200 H 646.700 C 646.800 307.200 646.700 307.100 646.700 307.200 V 310.100 C 646.700 310.155 646.745 310.200 646.800 310.200 H 652.800 C 652.855 310.200 652.900 310.155 652.900 310.100 V 307.200 C 652.900 307.100 652.800 307.200 652.900 307.200 H 658.700 C 658.800 307.200 658.700 307.100 658.700 307.200 V 310.100 C 658.700 310.155 658.745 310.200 658.800 310.200 H 664.800 C 664.855 310.200 664.900 310.155 664.900 310.100 V 307.200 C 664.900 307.100 664.800 307.200 664.900 307.200 H 670.700 C 670.800 307.200 670.700 307.100 670.700 307.200 V 310.100 C 670.700 310.155 670.745 310.200 670.800 310.200 H 676.800 C 676.855 310.200 676.900 310.155 676.900 310.100 V 307.200 C 676.900 307.100 676.800 307.200 676.900 307.200 H 682.700 C 682.800 307.200 682.700 307.100 682.700 307.200 V 310.100 C 682.700 310.155 682.745 310.200 682.800 310.200 H 688.800 C 688.855 310.200 688.900 310.155 688.900 310.100 V 307.200 C 688.900 307.100 688.800 307.200 688.900 307.200 H 694.700 C 694.800 307.200 694.700 307.100 694.700 307.200 V 310.100 C 694.700 310.155 694.745 310.200 694.800 310.200 H 700.800 C 700.855 310.200 700.900 310.155 700.900 310.100 V 307.200 C 700.900 307.100 700.800 307.200 700.900 307.200 H 706.700 C 706.800 307.200 706.700 307.100 706.700 307.200 V 310.100 C 706.700 310.155 706.745 310.200 706.800 310.200 H 712.800 C 712.855 310.200 712.900 310.155 712.900 310.100 V 307.200 C 712.900 307.100 712.800 307.200 712.900 307.200 H 718.700 C 718.800 307.200 718.700 307.100 718.700 307.200 V 310.100 C 718.700 310.155 718.745 310.200 718.800 310.200 H 724.800 C 724.855 310.200 724.900 310.155 724.900 310.100 V 307.200 C 724.900 307.100 724.800 307.200 724.900 307.200 H 730.700 C 730.800 307.200 730.700 307.100 730.700 307.200 V 310.100 C 730.700 310.155 730.745 310.200 730.800 310.200 H 736.800 C 736.855 310.200 736.900 310.155 736.900 310.100 V 307.200 C 736.900 307.100 736.800 307.200 736.900 307.200 H 742.700 C 742.800 307.200 742.700 307.100 742.700 307.200 V 310.100 C 742.700 310.155 742.745 310.200 742.800 310.200 H 748.800 C 748.855 310.200 748.900 310.155 748.900 310.100 V 307.200 C 748.900 307.100 748.800 307.200 748.900 307.200 H 754.700 C 754.800 307.200 754.700 307.100 754.700 307.200 V 310.100 C 754.700 310.155 754.745 310.200 754.800 310.200 H 760.800 C 760.855 310.200 760.900 310.155 760.900 310.100 V 307.200 C 760.900 307.100 760.800 307.200 760.900 307.200 H 766.700 C 766.800 307.200 766.700 307.100 766.700 307.200 V 310.100 C 766.700 310.155 766.745 310.200 766.800 310.200 H 772.800 C 772.855 310.200 772.900 310.155 772.900 310.100 V 307.200 C 772.900 307.100 772.800 307.200 772.900 307.200 H 778.700 C 778.800 307.200 778.700 307.100 778.700 307.200 V 310.100 C 778.700 310.155 778.745 310.200 778.800 310.200 H 784.800 C 784.855 310.200 784.900 310.155 784.900 310.100 V 307.200 C 784.900 307.100 784.800 307.200 784.900 307.200 H 790.700 C 790.800 307.200 790.700 307.100 790.700 307.200 V 310.100 C 790.700 310.155 790.745 310.200 790.800 310.200 H 796.800 C 796.855 310.200 796.900 310.155 796.900 310.100 V 307.200 C 796.900 307.100 796.800 307.200 796.900 307.200 H 802.700 C 802.800 307.200 802.700 307.100 802.700 307.200 V 310.100 C 802.700 310.155 802.745 310.200 802.800 310.200 H 808.800 C 808.855 310.200 808.900 310.155 808.900 310.100 V 307.200 C 808.900 307.100 808.800 307.200 808.900 307.200 H 814.700 C 814.800 307.200 814.700 307.100 814.700 307.200 V 310.100 C 814.700 310.155 814.745 310.200 814.800 310.200 H 820.800 C 820.855 310.200 820.900 310.155 820.900 310.100 V 307.200 C 820.900 307.100 820.800 307.200 820.900 307.200 H 826.700 C 826.800 307.200 826.700 307.100 826.700 307.200 V 310.100 C 826.700 310.155 826.745 310.200 826.800 310.200 H 832.800 C 832.855 310.200 832.900 310.155 832.900 310.100 V 307.200 C 832.900 307.100 832.800 307.200 832.900 307.200 H 838.700 C 838.800 307.200 838.700 307.100 838.700 307.200 V 310.100 C 838.700 310.155 838.745 310.200 838.800 310.200 H 844.800 C 844.855 310.200 844.900 310.155 844.900 310.100 V 307.200 C 844.900 307.100 844.800 307.200 844.900 307.200 H 850.700 C 850.800 307.200 850.700 307.100 850.700 307.200 V 310.100 C 850.700 310.155 850.745 310.200 850.800 310.200 H 856.800 C 856.855 310.200 856.900 310.155 856.900 310.100 V 307.200 C 856.900 307.100 856.800 307.200 856.900 307.200 H 862.700 C 862.800 307.200 862.700 307.100 862.700 307.200 V 310.100 C 862.700 310.155 862.745 310.200 862.800 310.200 H 868.800 C 868.855 310.200 868.900 310.155 868.900 310.100 V 307.200 C 868.900 307.100 868.800 307.200 868.900 307.200 H 874.700 C 874.800 307.200 874.700 307.100 874.700 307.200 V 310.100 C 874.700 310.155 874.745 310.200 874.800 310.200 H 880.800 C 880.855 310.200 880.900 310.155 880.900 310.100 V 307.200 C 880.900 307.100 880.800 307.200 880.900 307.200 H 886.700 C 886.800 307.200 886.700 307.100 886.700 307.200 V 310.100 C 886.700 310.155 886.745 310.200 886.800 310.200 H 892.800 C 892.855 310.200 892.900 310.155 892.900 310.100 V 307.200 C 892.900 307.100 892.800 307.200 892.900 307.200 H 898.700 C 898.800 307.200 898.700 307.100 898.700 307.200 V 310.100 C 898.700 310.155 898.745 310.200 898.800 310.200 H 904.800 C 904.855 310.200 904.900 310.155 904.900 310.100 V 307.200 C 904.900 307.100 904.800 307.200 904.900 307.200 H 910.800 C 910.855 307.200 910.900 307.155 910.900 307.100 V 301.200 C 910.900 301.100 910.800 301.200 910.900 301.200 H 913.800 C 913.855 301.200 913.900 301.155 913.900 301.100 V 295.100 C 913.900 295.045 913.855 295.000 913.800 295.000 H 910.900 C 910.800 295.000 910.900 295.100 910.900 295.000 V 289.200 C 910.900 289.100 910.800 289.200 910.900 289.200 H 913.800 C 913.855 289.200 913.900 289.155 913.900 289.100 V 283.100 C 913.900 283.045 913.855 283.000 913.800 283.000 H 910.900 C 910.800 283.000 910.900 283.100 910.900 283.000 V 277.200 C 910.900 277.100 910.800 277.200 910.900 277.200 H 913.800 C 913.855 277.200 913.900 277.155 913.900 277.100 V 271.100 C 913.900 271.045 913.855 271.000 913.800 271.000 H 910.900 C 910.800 271.000 910.900 271.100 910.900 271.000 V 265.200 C 910.900 265.100 910.800 265.200 910.900 265.200 H 913.800 C 913.855 265.200 913.900 265.155 913.900 265.100 V 259.100 C 913.900 259.045 913.855 259.000 913.800 259.000 H 910.900 C 910.800 259.000 910.900 259.100 910.900 259.000 V 253.200 C 910.900 253.100 910.800 253.200 910.900 253.200 H 913.800 C 913.855 253.200 913.900 253.155 913.900 253.100 V 247.100 C 913.900 247.045 913.855 247.000 913.800 247.000 H 910.900 C 910.800 247.000 910.900 247.100 910.900 247.000 V 241.200 C 910.900 241.100 910.800 241.200 910.900 241.200 H 913.800 C 913.855 241.200 913.900 241.155 913.900 241.100 V 235.100 C 913.900 235.045 913.855 235.000 913.800 235.000 H 910.900 C 910.800 235.000 910.900 235.100 910.900 235.000 V 229.200 C 910.900 229.100 910.800 229.200 910.900 229.200 H 913.800 C 913.855 229.200 913.900 229.155 913.900 229.100 V 223.100 C 913.900 223.045 913.855 223.000 913.800 223.000 H 910.900 C 910.800 223.000 910.900 223.100 910.900 223.000 V 217.200 C 910.900 217.100 910.800 217.200 910.900 217.200 H 913.800 C 913.855 217.200 913.900 217.155 913.900 217.100 V 211.100 C 913.900 211.045 913.855 211.000 913.800 211.000 H 910.900 C 910.800 211.000 910.900 211.100 910.900 211.000 V 205.200 C 910.900 205.100 910.800 205.200 910.900 205.200 H 913.800 C 913.855 205.200 913.900 205.155 913.900 205.100 V 199.100 C 913.900 199.045 913.855 199.000 913.800 199.000 H 910.900 C 910.800 199.000 910.900 199.100 910.900 199.000 V 193.200 C 910.900 193.100 910.800 193.200 910.900 193.200 H 913.800 C 913.855 193.200 913.900 193.155 913.900 193.100 V 187.100 C 913.900 187.045 913.855 187.000 913.800 187.000 H 910.900 C 910.800 187.000 910.900 187.100 910.900 187.000 V 181.200 C 910.900 181.100 910.800 181.200 910.900 181.200 H 913.800 C 913.855 181.200 913.900 181.155 913.900 181.100 V 175.100 C 913.900 175.045 913.855 175.000 913.800 175.000 H 910.900 C 910.800 175.000 910.900 175.100 910.900 175.000 V 169.200 C 910.900 169.100 910.800 169.200 910.900 169.200 H 913.800 C 913.855 169.200 913.900 169.155 913.900 169.100 V 163.100 C 913.900 163.045 913.855 163.000 913.800 163.000 H 910.900 C 910.800 163.000 910.900 163.100 910.900 163.000 V 157.200 C 910.900 157.100 910.800 157.200 910.900 157.200 H 913.800 C 913.855 157.200 913.900 157.155 913.900 157.100 V 151.100 C 913.900 151.045 913.855 151.000 913.800 151.000 H 910.900 C 910.800 151.000 910.900 151.100 910.900 151.000 V 145.200 C 910.900 145.100 910.800 145.200 910.900 145.200 H 913.800 C 913.855 145.200 913.900 145.155 913.900 145.100 V 139.100 C 913.900 139.045 913.855 139.000 913.800 139.000 H 910.900 C 910.800 139.000 910.900 139.100 910.900 139.000 V 133.200 C 910.900 133.100 910.800 133.200 910.900 133.200 H 913.800 C 913.855 133.200 913.900 133.155 913.900 133.100 V 127.100 C 913.900 127.045 913.855 127.000 913.800 127.000 H 910.900 C 910.800 127.000 910.900 127.100 910.900 127.000 V 121.200 C 910.900 121.100 910.800 121.200 910.900 121.200 H 913.800 C 913.855 121.200 913.900 121.155 913.900 121.100 V 115.100 C 913.900 115.045 913.855 115.000 913.800 115.000 H 910.900 C 910.800 115.000 910.900 115.100 910.900 115.000 V 109.200 C 910.900 109.100 910.800 109.200 910.900 109.200 H 913.800 C 913.855 109.200 913.900 109.155 913.900 109.100 V 103.100 C 913.900 103.045 913.855 103.000 913.800 103.000 H 910.900 C 910.800 103.000 910.900 103.100 910.900 103.000 V 97.200 C 910.900 97.100 910.800 97.200 910.900 97.200 H 913.800 C 913.855 97.200 913.900 97.155 913.900 97.100 V 91.100 C 913.900 91.045 913.855 91.000 913.800 91.000 H 910.900 C 910.800 91.000 910.900 91.100 910.900 91.000 V 85.200 C 910.900 85.100 910.800 85.200 910.900 85.200 H 913.800 C 913.855 85.200 913.900 85.155 913.900 85.100 V 79.100 C 913.900 79.045 913.855 79.000 913.800 79.000 H 910.900 C 910.800 79.000 910.900 79.100 910.900 79.000 V 73.200 C 910.900 73.100 910.800 73.200 910.900 73.200 H 913.800 C 913.855 73.200 913.900 73.155 913.900 73.100 V 67.100 C 913.900 67.045 913.855 67.000 913.800 67.000 H 910.900 C 910.800 67.000 910.900 67.100 910.900 67.000 V 61.200 C 910.900 61.100 910.800 61.200 910.900 61.200 H 913.800 C 913.855 61.200 913.900 61.155 913.900 61.100 V 55.100 C 913.900 55.045 913.855 55.000 913.800 55.000 H 910.900 C 910.800 55.000 910.900 55.100 910.900 55.000 V 49.200 C 910.900 49.100 910.800 49.200 910.900 49.200 H 913.800 C 913.855 49.200 913.900 49.155 913.900 49.100 V 43.100 C 913.900 43.045 913.855 43.000 913.800 43.000 H 910.900 C 910.800 43.000 910.900 43.100 910.900 43.000 V 37.200 C 910.900 37.100 910.800 37.200 910.900 37.200 H 913.800 C 913.855 37.200 913.900 37.155 913.900 37.100 V 31.100 C 913.900 31.045 913.855 31.000 913.800 31.000 H 910.900 C 910.800 31.000 910.900 31.100 910.900 31.000 V 25.200 C 910.900 25.100 910.800 25.200 910.900 25.200 H 913.800 C 913.855 25.200 913.900 25.155 913.900 25.100 V 19.100 C 913.900 19.045 913.855 19.000 913.800 19.000 H 910.900 C 910.800 19.000 910.900 19.100 910.900 19.000 V 13.100 C 910.900 13.045 910.855 13.000 910.800 13.000 H 904.900 C 904.800 13.000 904.900 13.100 904.900 13.000 V 10.100 C 904.900 10.045 904.855 10.000 904.800 10.000 H 898.800 C 898.745 10.000 898.700 10.045 898.700 10.100 V 13.000 C 898.700 13.100 898.800 13.000 898.700 13.000 H 892.900 C 892.800 13.000 892.900 13.100 892.900 13.000 V 10.100 C 892.900 10.045 892.855 10.000 892.800 10.000 H 886.800 C 886.745 10.000 886.700 10.045 886.700 10.100 V 13.000 C 886.700 13.100 886.800 13.000 886.700 13.000 H 880.900 C 880.800 13.000 880.900 13.100 880.900 13.000 V 10.100 C 880.900 10.045 880.855 10.000 880.800 10.000 H 874.800 C 874.745 10.000 874.700 10.045 874.700 10.100 V 13.000 C 874.700 13.100 874.800 13.000 874.700 13.000 H 868.900 C 868.800 13.000 868.900 13.100 868.900 13.000 V 10.100 C 868.900 10.045 868.855 10.000 868.800 10.000 H 862.800 C 862.745 10.000 862.700 10.045 862.700 10.100 V 13.000 C 862.700 13.100 862.800 13.000 862.700 13.000 H 856.900 C 856.800 13.000 856.900 13.100 856.900 13.000 V 10.100 C 856.900 10.045 856.855 10.000 856.800 10.000 H 850.800 C 850.745 10.000 850.700 10.045 850.700 10.100 V 13.000 C 850.700 13.100 850.800 13.000 850.700 13.000 H 844.900 C 844.800 13.000 844.900 13.100 844.900 13.000 V 10.100 C 844.900 10.045 844.855 10.000 844.800 10.000 H 838.800 C 838.745 10.000 838.700 10.045 838.700 10.100 V 13.000 C 838.700 13.100 838.800 13.000 838.700 13.000 H 832.900 C 832.800 13.000 832.900 13.100 832.900 13.000 V 10.100 C 832.900 10.045 832.855 10.000 832.800 10.000 H 826.800 C 826.745 10.000 826.700 10.045 826.700 10.100 V 13.000 C 826.700 13.100 826.800 13.000 826.700 13.000 H 820.900 C 820.800 13.000 820.900 13.100 820.900 13.000 V 10.100 C 820.900 10.045 820.855 10.000 820.800 10.000 H 814.800 C 814.745 10.000 814.700 10.045 814.700 10.100 V 13.000 C 814.700 13.100 814.800 13.000 814.700 13.000 H 808.900 C 808.800 13.000 808.900 13.100 808.900 13.000 V 10.100 C 808.900 10.045 808.855 10.000 808.800 10.000 H 802.800 C 802.745 10.000 802.700 10.045 802.700 10.100 V 13.000 C 802.700 13.100 802.800 13.000 802.700 13.000 H 796.900 C 796.800 13.000 796.900 13.100 796.900 13.000 V 10.100 C 796.900 10.045 796.855 10.000 796.800 10.000 H 790.800 C 790.745 10.000 790.700 10.045 790.700 10.100 V 13.000 C 790.700 13.100 790.800 13.000 790.700 13.000 H 784.900 C 784.800 13.000 784.900 13.100 784.900 13.000 V 10.100 C 784.900 10.045 784.855 10.000 784.800 10.000 H 778.800 C 778.745 10.000 778.700 10.045 778.700 10.100 V 13.000 C 778.700 13.100 778.800 13.000 778.700 13.000 H 772.900 C 772.800 13.000 772.900 13.100 772.900 13.000 V 10.100 C 772.900 10.045 772.855 10.000 772.800 10.000 H 766.800 C 766.745 10.000 766.700 10.045 766.700 10.100 V 13.000 C 766.700 13.100 766.800 13.000 766.700 13.000 H 760.900 C 760.800 13.000 760.900 13.100 760.900 13.000 V 10.100 C 760.900 10.045 760.855 10.000 760.800 10.000 H 754.800 C 754.745 10.000 754.700 10.045 754.700 10.100 V 13.000 C 754.700 13.100 754.800 13.000 754.700 13.000 H 748.900 C 748.800 13.000 748.900 13.100 748.900 13.000 V 10.100 C 748.900 10.045 748.855 10.000 748.800 10.000 H 742.800 C 742.745 10.000 742.700 10.045 742.700 10.100 V 13.000 C 742.700 13.100 742.800 13.000 742.700 13.000 H 736.900 C 736.800 13.000 736.900 13.100 736.900 13.000 V 10.100 C 736.900 10.045 736.855 10.000 736.800 10.000 H 730.800 C 730.745 10.000 730.700 10.045 730.700 10.100 V 13.000 C 730.700 13.100 730.800 13.000 730.700 13.000 H 724.900 C 724.800 13.000 724.900 13.100 724.900 13.000 V 10.100 C 724.900 10.045 724.855 10.000 724.800 10.000 H 718.800 C 718.745 10.000 718.700 10.045 718.700 10.100 V 13.000 C 718.700 13.100 718.800 13.000 718.700 13.000 H 712.900 C 712.800 13.000 712.900 13.100 712.900 13.000 V 10.100 C 712.900 10.045 712.855 10.000 712.800 10.000 H 706.800 C 706.745 10.000 706.700 10.045 706.700 10.100 V 13.000 C 706.700 13.100 706.800 13.000 706.700 13.000 H 700.900 C 700.800 13.000 700.900 13.100 700.900 13.000 V 10.100 C 700.900 10.045 700.855 10.000 700.800 10.000 H 694.800 C 694.745 10.000 694.700 10.045 694.700 10.100 V 13.000 C 694.700 13.100 694.800 13.000 694.700 13.000 H 688.900 C 688.800 13.000 688.900 13.100 688.900 13.000 V 10.100 C 688.900 10.045 688.855 10.000 688.800 10.000 H 682.800 C 682.745 10.000 682.700 10.045 682.700 10.100 V 13.000 C 682.700 13.100 682.800 13.000 682.700 13.000 H 676.900 C 676.800 13.000 676.900 13.100 676.900 13.000 V 10.100 C 676.900 10.045 676.855 10.000 676.800 10.000 H 670.800 C 670.745 10.000 670.700 10.045 670.700 10.100 V 13.000 C 670.700 13.100 670.800 13.000 670.700 13.000 H 664.900 C 664.800 13.000 664.900 13.100 664.900 13.000 V 10.100 C 664.900 10.045 664.855 10.000 664.800 10.000 H 658.800 C 658.745 10.000 658.700 10.045 658.700 10.100 V 13.000 C 658.700 13.100 658.800 13.000 658.700 13.000 H 652.900 C 652.800 13.000 652.900 13.100 652.900 13.000 V 10.100 C 652.900 10.045 652.855 10.000 652.800 10.000 H 646.800 C 646.745 10.000 646.700 10.045 646.700 10.100 V 13.000 C 646.700 13.100 646.800 13.000 646.700 13.000 H 640.900 C 640.800 13.000 640.900 13.100 640.900 13.000 V 10.100 C 640.900 10.045 640.855 10.000 640.800 10.000 H 634.800 C 634.745 10.000 634.700 10.045 634.700 10.100 V 13.000 C 634.700 13.100 634.800 13.000 634.700 13.000 H 628.900 C 628.800 13.000 628.900 13.100 628.900 13.000 V 10.100 C 628.900 10.045 628.855 10.000 628.800 10.000 H 622.800 C 622.745 10.000 622.700 10.045 622.700 10.100 V 13.000 C 622.700 13.100 622.800 13.000 622.700 13.000 H 616.800 C 616.745 13.000 616.700 13.045 616.700 13.100 V 19.000 C 616.700 19.100 616.800 19.000 616.700 19.000 H 613.800 C 613.745 19.000 613.700 19.045 613.700 19.100 V 25.100 C 613.700 25.155 613.745 25.200 613.800 25.200 H 616.700 C 616.800 25.200 616.700 25.100 616.700 25.200 V 31.000 C 616.700 31.100 616.800 31.000 616.700 31.000 H 613.800 C 613.745 31.000 613.700 31.045 613.700 31.100 V 37.100 C 613.700 37.155 613.745 37.200 613.800 37.200 H 616.700 C 616.800 37.200 616.700 37.100 616.700 37.200 V 43.000 C 616.700 43.100 616.800 43.000 616.700 43.000 H 613.800 C 613.745 43.000 613.700 43.045 613.700 43.100 V 49.100 C 613.700 49.155 613.745 49.200 613.800 49.200 H 616.700 C 616.800 49.200 616.700 49.100 616.700 49.200 V 55.000 C 616.700 55.100 616.800 55.000 616.700 55.000 H 613.800 C 613.745 55.000 613.700 55.045 613.700 55.100 V 61.100 C 613.700 61.155 613.745 61.200 613.800 61.200 H 616.700 C 616.800 61.200 616.700 61.100 616.700 61.200 V 67.000 C 616.700 67.100 616.800 67.000 616.700 67.000 H 613.800 C 613.745 67.000 613.700 67.045 613.700 67.100 V 73.100 C 613.700 73.155 613.745 73.200 613.800 73.200 H 616.700 C 616.800 73.200 616.700 73.100 616.700 73.200 V 79.000 C 616.700 79.100 616.800 79.000 616.700 79.000 H 613.800 C 613.745 79.000 613.700 79.045 613.700 79.100 V 85.100 C 613.700 85.155 613.745 85.200 613.800 85.200 H 616.700 C 616.800 85.200 616.700 85.100 616.700 85.200 V 91.000 C 616.700 91.100 616.800 91.000 616.700 91.000 H 613.800 C 613.745 91.000 613.700 91.045 613.700 91.100 V 97.100 C 613.700 97.155 613.745 97.200 613.800 97.200 H 616.700 C 616.800 97.200 616.700 97.100 616.700 97.200 V 103.000 C 616.700 103.100 616.800 103.000 616.700 103.000 H 613.800 C 613.745 103.000 613.700 103.045 613.700 103.100 V 109.100 C 613.700 109.155 613.745 109.200 613.800 109.200 H 616.700 C 616.800 109.200 616.700 109.100 616.700 109.200 V 115.000 C 616.700 115.100 616.800 115.000 616.700 115.000 H 613.800 C 613.745 115.000 613.700 115.045 613.700 115.100 V 121.100 C 613.700 121.155 613.745 121.200 613.800 121.200 H 616.700 C 616.800 121.200 616.700 121.100 616.700 121.200 V 127.000 C 616.700 127.100 616.800 127.000 616.700 127.000 H 613.800 C 613.745 127.000 613.700 127.045 613.700 127.100 V 133.100 C 613.700 133.155 613.745 133.200 613.800 133.200 H 616.700 C 616.800 133.200 616.700 133.100 616.700 133.200 V 139.000 C 616.700 139.100 616.800 139.000 616.700 139.000 H 613.800 C 613.745 139.000 613.700 139.045 613.700 139.100 V 145.100 C 613.700 145.155 613.745 145.200 613.800 145.200 H 616.700 C 616.800 145.200 616.700 145.100 616.700 145.200 V 151.000 C 616.700 151.100 616.800 151.000 616.700 151.000 H 613.800 C 613.745 151.000 613.700 151.045 613.700 151.100 V 157.100 C 613.700 157.155 613.745 157.200 613.800 157.200 H 616.700 C 616.800 157.200 616.700 157.100 616.700 157.200 V 163.000 C 616.700 163.100 616.800 163.000 616.700 163.000 H 613.800 C 613.745 163.000 613.700 163.045 613.700 163.100 V 169.100 C 613.700 169.155 613.745 169.200 613.800 169.200 H 616.700 C 616.800 169.200 616.700 169.100 616.700 169.200 V 175.000 C 616.700 175.100 616.800 175.000 616.700 175.000 H 613.800 C 613.745 175.000 613.700 175.045 613.700 175.100 V 181.100 C 613.700 181.155 613.745 181.200 613.800 181.200 H 616.700 C 616.800 181.200 616.700 181.100 616.700 181.200 V 187.000 C 616.700 187.100 616.800 187.000 616.700 187.000 H 613.800 C 613.745 187.000 613.700 187.045 613.700 187.100 V 193.100 C 613.700 193.155 613.745 193.200 613.800 193.200 H 616.700 C 616.800 193.200 616.700 193.100 616.700 193.200 V 199.000 C 616.700 199.100 616.800 199.000 616.700 199.000 H 613.800 C 613.745 199.000 613.700 199.045 613.700 199.100 V 205.100 C 613.700 205.155 613.745 205.200 613.800 205.200 H 616.700 C 616.800 205.200 616.700 205.100 616.700 205.200 V 211.000 C 616.700 211.100 616.800 211.000 616.700 211.000 H 613.800 C 613.745 211.000 613.700 211.045 613.700 211.100 V 217.100 C 613.700 217.155 613.745 217.200 613.800 217.200 H 616.700 C 616.800 217.200 616.700 217.100 616.700 217.200 V 223.000 C 616.700 223.100 616.800 223.000 616.700 223.000 H 613.800 C 613.745 223.000 613.700 223.045 613.700 223.100 V 229.100 C 613.700 229.155 613.745 229.200 613.800 229.200 H 616.700 C 616.800 229.200 616.700 229.100 616.700 229.200 V 235.000 C 616.700 235.100 616.800 235.000 616.700 235.000 H 613.800 C 613.745 235.000 613.700 235.045 613.700 235.100 V 241.100 C 613.700 241.155 613.745 241.200 613.800 241.200 H 616.700 C 616.800 241.200 616.700 241.100 616.700 241.200 V 247.000 C 616.700 247.100 616.800 247.000 616.700 247.000 H 613.800 C 613.745 247.000 613.700 247.045 613.700 247.100 V 253.100 C 613.700 253.155 613.745 253.200 613.800 253.200 H 616.700 C 616.800 253.200 616.700 253.100 616.700 253.200 V 259.000 C 616.700 259.100 616.800 259.000 616.700 259.000 H 613.800 C 613.745 259.000 613.700 259.045 613.700 259.100 V 265.100 C 613.700 265.155 613.745 265.200 613.800 265.200 H 616.700 C 616.800 265.200 616.700 265.100 616.700 265.200 V 271.000 C 616.700 271.100 616.800 271.000 616.700 271.000 H 613.800 C 613.745 271.000 613.700 271.045 613.700 271.100 V 277.100 C 613.700 277.155 613.745 277.200 613.800 277.200 H 616.700 C 616.800 277.200 616.700 277.100 616.700 277.200 V 283.000 C 616.700 283.100 616.800 283.000 616.700 283.000 H 613.800 C 613.745 283.000 613.700 283.045 613.700 283.100 V 289.100 C 613.700 289.155 613.745 289.200 613.800 289.200 H 616.700 C 616.800 289.200 616.700 289.100 616.700 289.200 V 295.000 C 616.700 295.100 616.800 295.000 616.700 295.000 H 613.800 C 613.745 295.000 613.700 295.045 613.700 295.100 V 301.100 C 613.700 301.155 613.745 301.200 613.800 301.200 H 616.700 C 616.800 301.200 616.700 301.100 616.700 301.200 V 307.100 C 616.700 307.155 616.745 307.200 616.800 307.200"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1062" />
+  </g>
+  <g
+     id="p-4"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 957.701 158.200 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text1065">Front</text>
+    <path
+       d="M 915.500 310.200 H 918.701 C 918.756 310.200 918.801 310.155 918.801 310.100 V 307.200 C 918.801 307.100 918.701 307.200 918.801 307.200 H 924.601 C 924.701 307.200 924.601 307.100 924.601 307.200 V 310.100 C 924.601 310.155 924.646 310.200 924.701 310.200 H 930.701 C 930.756 310.200 930.801 310.155 930.801 310.100 V 307.200 C 930.801 307.100 930.701 307.200 930.801 307.200 H 936.601 C 936.701 307.200 936.601 307.100 936.601 307.200 V 310.100 C 936.601 310.155 936.646 310.200 936.701 310.200 H 942.701 C 942.756 310.200 942.801 310.155 942.801 310.100 V 307.200 C 942.801 307.100 942.701 307.200 942.801 307.200 H 948.601 C 948.701 307.200 948.601 307.100 948.601 307.200 V 310.100 C 948.601 310.155 948.646 310.200 948.701 310.200 H 954.701 C 954.756 310.200 954.801 310.155 954.801 310.100 V 307.200 C 954.801 307.100 954.701 307.200 954.801 307.200 H 960.601 C 960.701 307.200 960.601 307.100 960.601 307.200 V 310.100 C 960.601 310.155 960.646 310.200 960.701 310.200 H 966.701 C 966.756 310.200 966.801 310.155 966.801 310.100 V 307.200 C 966.801 307.100 966.701 307.200 966.801 307.200 H 972.601 C 972.701 307.200 972.601 307.100 972.601 307.200 V 310.100 C 972.601 310.155 972.646 310.200 972.701 310.200 H 978.701 C 978.756 310.200 978.801 310.155 978.801 310.100 V 307.200 C 978.801 307.100 978.701 307.200 978.801 307.200 H 984.601 C 984.701 307.200 984.601 307.100 984.601 307.200 V 310.100 C 984.601 310.155 984.646 310.200 984.701 310.200 H 990.701 C 990.756 310.200 990.801 310.155 990.801 310.100 V 307.200 C 990.801 307.100 990.701 307.200 990.801 307.200 H 996.601 C 996.701 307.200 996.601 307.100 996.601 307.200 V 310.100 C 996.601 310.155 996.646 310.200 996.701 310.200 H 999.902 C 999.957 310.200 1000.002 310.155 1000.002 310.100 V 307.100 V 13.100 V 10.100 C 1000.002 10.045 999.957 10.000 999.902 10.000 H 996.701 C 996.646 10.000 996.601 10.045 996.601 10.100 V 13.000 C 996.601 13.100 996.701 13.000 996.601 13.000 H 990.801 C 990.701 13.000 990.801 13.100 990.801 13.000 V 10.100 C 990.801 10.045 990.756 10.000 990.701 10.000 H 984.701 C 984.646 10.000 984.601 10.045 984.601 10.100 V 13.000 C 984.601 13.100 984.701 13.000 984.601 13.000 H 978.801 C 978.701 13.000 978.801 13.100 978.801 13.000 V 10.100 C 978.801 10.045 978.756 10.000 978.701 10.000 H 972.701 C 972.646 10.000 972.601 10.045 972.601 10.100 V 13.000 C 972.601 13.100 972.701 13.000 972.601 13.000 H 966.801 C 966.701 13.000 966.801 13.100 966.801 13.000 V 10.100 C 966.801 10.045 966.756 10.000 966.701 10.000 H 960.701 C 960.646 10.000 960.601 10.045 960.601 10.100 V 13.000 C 960.601 13.100 960.701 13.000 960.601 13.000 H 954.801 C 954.701 13.000 954.801 13.100 954.801 13.000 V 10.100 C 954.801 10.045 954.756 10.000 954.701 10.000 H 948.701 C 948.646 10.000 948.601 10.045 948.601 10.100 V 13.000 C 948.601 13.100 948.701 13.000 948.601 13.000 H 942.801 C 942.701 13.000 942.801 13.100 942.801 13.000 V 10.100 C 942.801 10.045 942.756 10.000 942.701 10.000 H 936.701 C 936.646 10.000 936.601 10.045 936.601 10.100 V 13.000 C 936.601 13.100 936.701 13.000 936.601 13.000 H 930.801 C 930.701 13.000 930.801 13.100 930.801 13.000 V 10.100 C 930.801 10.045 930.756 10.000 930.701 10.000 H 924.701 C 924.646 10.000 924.601 10.045 924.601 10.100 V 13.000 C 924.601 13.100 924.701 13.000 924.601 13.000 H 918.801 C 918.701 13.000 918.801 13.100 918.801 13.000 V 10.100 C 918.801 10.045 918.756 10.000 918.701 10.000 H 915.500 C 915.445 10.000 915.400 10.045 915.400 10.100 V 13.100 V 25.100 C 915.400 26.171 915.682 27.223 916.217 28.150 C 916.753 29.077 917.523 29.847 918.450 30.383 C 919.347 30.901 920.092 31.645 920.610 32.542 C 921.127 33.439 921.400 34.457 921.400 35.492 V 284.708 C 921.400 285.743 921.127 286.761 920.610 287.658 C 920.092 288.555 919.347 289.299 918.450 289.817 C 917.523 290.353 916.753 291.123 916.217 292.050 C 915.682 292.977 915.400 294.029 915.400 295.100 V 307.100 V 310.100 C 915.400 310.155 915.445 310.200 915.500 310.200"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1067" />
+    <path
+       d="M 924.500 22.100 V 19.200 C 924.500 19.100 924.400 19.200 924.500 19.200 H 927.300 C 927.400 19.200 927.300 19.100 927.300 19.200 V 25.000 C 927.300 25.100 927.400 25.000 927.300 25.000 H 924.500 C 924.400 25.000 924.500 25.100 924.500 25.000 V 22.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1069" />
+    <path
+       d="M 924.500 34.100 V 31.200 C 924.500 31.100 924.400 31.200 924.500 31.200 H 927.300 C 927.400 31.200 927.300 31.100 927.300 31.200 V 37.000 C 927.300 37.100 927.400 37.000 927.300 37.000 H 924.500 C 924.400 37.000 924.500 37.100 924.500 37.000 V 34.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1071" />
+    <path
+       d="M 924.500 46.100 V 43.200 C 924.500 43.100 924.400 43.200 924.500 43.200 H 927.300 C 927.400 43.200 927.300 43.100 927.300 43.200 V 49.000 C 927.300 49.100 927.400 49.000 927.300 49.000 H 924.500 C 924.400 49.000 924.500 49.100 924.500 49.000 V 46.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1073" />
+    <path
+       d="M 924.500 58.100 V 55.200 C 924.500 55.100 924.400 55.200 924.500 55.200 H 927.300 C 927.400 55.200 927.300 55.100 927.300 55.200 V 61.000 C 927.300 61.100 927.400 61.000 927.300 61.000 H 924.500 C 924.400 61.000 924.500 61.100 924.500 61.000 V 58.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1075" />
+    <path
+       d="M 924.500 70.100 V 67.200 C 924.500 67.100 924.400 67.200 924.500 67.200 H 927.300 C 927.400 67.200 927.300 67.100 927.300 67.200 V 73.000 C 927.300 73.100 927.400 73.000 927.300 73.000 H 924.500 C 924.400 73.000 924.500 73.100 924.500 73.000 V 70.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1077" />
+    <path
+       d="M 924.500 82.100 V 79.200 C 924.500 79.100 924.400 79.200 924.500 79.200 H 927.300 C 927.400 79.200 927.300 79.100 927.300 79.200 V 85.000 C 927.300 85.100 927.400 85.000 927.300 85.000 H 924.500 C 924.400 85.000 924.500 85.100 924.500 85.000 V 82.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1079" />
+    <path
+       d="M 924.500 94.100 V 91.200 C 924.500 91.100 924.400 91.200 924.500 91.200 H 927.300 C 927.400 91.200 927.300 91.100 927.300 91.200 V 97.000 C 927.300 97.100 927.400 97.000 927.300 97.000 H 924.500 C 924.400 97.000 924.500 97.100 924.500 97.000 V 94.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1081" />
+    <path
+       d="M 924.500 106.100 V 103.200 C 924.500 103.100 924.400 103.200 924.500 103.200 H 927.300 C 927.400 103.200 927.300 103.100 927.300 103.200 V 109.000 C 927.300 109.100 927.400 109.000 927.300 109.000 H 924.500 C 924.400 109.000 924.500 109.100 924.500 109.000 V 106.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1083" />
+    <path
+       d="M 924.500 118.100 V 115.200 C 924.500 115.100 924.400 115.200 924.500 115.200 H 927.300 C 927.400 115.200 927.300 115.100 927.300 115.200 V 121.000 C 927.300 121.100 927.400 121.000 927.300 121.000 H 924.500 C 924.400 121.000 924.500 121.100 924.500 121.000 V 118.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1085" />
+    <path
+       d="M 924.500 130.100 V 127.200 C 924.500 127.100 924.400 127.200 924.500 127.200 H 927.300 C 927.400 127.200 927.300 127.100 927.300 127.200 V 133.000 C 927.300 133.100 927.400 133.000 927.300 133.000 H 924.500 C 924.400 133.000 924.500 133.100 924.500 133.000 V 130.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1087" />
+    <path
+       d="M 924.500 142.100 V 139.200 C 924.500 139.100 924.400 139.200 924.500 139.200 H 927.300 C 927.400 139.200 927.300 139.100 927.300 139.200 V 145.000 C 927.300 145.100 927.400 145.000 927.300 145.000 H 924.500 C 924.400 145.000 924.500 145.100 924.500 145.000 V 142.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1089" />
+    <path
+       d="M 924.500 154.100 V 151.200 C 924.500 151.100 924.400 151.200 924.500 151.200 H 927.300 C 927.400 151.200 927.300 151.100 927.300 151.200 V 157.000 C 927.300 157.100 927.400 157.000 927.300 157.000 H 924.500 C 924.400 157.000 924.500 157.100 924.500 157.000 V 154.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1091" />
+    <path
+       d="M 924.500 166.100 V 163.200 C 924.500 163.100 924.400 163.200 924.500 163.200 H 927.300 C 927.400 163.200 927.300 163.100 927.300 163.200 V 169.000 C 927.300 169.100 927.400 169.000 927.300 169.000 H 924.500 C 924.400 169.000 924.500 169.100 924.500 169.000 V 166.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1093" />
+    <path
+       d="M 924.500 178.100 V 175.200 C 924.500 175.100 924.400 175.200 924.500 175.200 H 927.300 C 927.400 175.200 927.300 175.100 927.300 175.200 V 181.000 C 927.300 181.100 927.400 181.000 927.300 181.000 H 924.500 C 924.400 181.000 924.500 181.100 924.500 181.000 V 178.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1095" />
+    <path
+       d="M 924.500 190.100 V 187.200 C 924.500 187.100 924.400 187.200 924.500 187.200 H 927.300 C 927.400 187.200 927.300 187.100 927.300 187.200 V 193.000 C 927.300 193.100 927.400 193.000 927.300 193.000 H 924.500 C 924.400 193.000 924.500 193.100 924.500 193.000 V 190.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1097" />
+    <path
+       d="M 924.500 202.100 V 199.200 C 924.500 199.100 924.400 199.200 924.500 199.200 H 927.300 C 927.400 199.200 927.300 199.100 927.300 199.200 V 205.000 C 927.300 205.100 927.400 205.000 927.300 205.000 H 924.500 C 924.400 205.000 924.500 205.100 924.500 205.000 V 202.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1099" />
+    <path
+       d="M 924.500 214.100 V 211.200 C 924.500 211.100 924.400 211.200 924.500 211.200 H 927.300 C 927.400 211.200 927.300 211.100 927.300 211.200 V 217.000 C 927.300 217.100 927.400 217.000 927.300 217.000 H 924.500 C 924.400 217.000 924.500 217.100 924.500 217.000 V 214.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1101" />
+    <path
+       d="M 924.500 226.100 V 223.200 C 924.500 223.100 924.400 223.200 924.500 223.200 H 927.300 C 927.400 223.200 927.300 223.100 927.300 223.200 V 229.000 C 927.300 229.100 927.400 229.000 927.300 229.000 H 924.500 C 924.400 229.000 924.500 229.100 924.500 229.000 V 226.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1103" />
+    <path
+       d="M 924.500 238.100 V 235.200 C 924.500 235.100 924.400 235.200 924.500 235.200 H 927.300 C 927.400 235.200 927.300 235.100 927.300 235.200 V 241.000 C 927.300 241.100 927.400 241.000 927.300 241.000 H 924.500 C 924.400 241.000 924.500 241.100 924.500 241.000 V 238.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1105" />
+    <path
+       d="M 924.500 250.100 V 247.200 C 924.500 247.100 924.400 247.200 924.500 247.200 H 927.300 C 927.400 247.200 927.300 247.100 927.300 247.200 V 253.000 C 927.300 253.100 927.400 253.000 927.300 253.000 H 924.500 C 924.400 253.000 924.500 253.100 924.500 253.000 V 250.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1107" />
+    <path
+       d="M 924.500 262.100 V 259.200 C 924.500 259.100 924.400 259.200 924.500 259.200 H 927.300 C 927.400 259.200 927.300 259.100 927.300 259.200 V 265.000 C 927.300 265.100 927.400 265.000 927.300 265.000 H 924.500 C 924.400 265.000 924.500 265.100 924.500 265.000 V 262.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1109" />
+    <path
+       d="M 924.500 274.100 V 271.200 C 924.500 271.100 924.400 271.200 924.500 271.200 H 927.300 C 927.400 271.200 927.300 271.100 927.300 271.200 V 277.000 C 927.300 277.100 927.400 277.000 927.300 277.000 H 924.500 C 924.400 277.000 924.500 277.100 924.500 277.000 V 274.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1111" />
+    <path
+       d="M 924.500 286.100 V 283.200 C 924.500 283.100 924.400 283.200 924.500 283.200 H 927.300 C 927.400 283.200 927.300 283.100 927.300 283.200 V 289.000 C 927.300 289.100 927.400 289.000 927.300 289.000 H 924.500 C 924.400 289.000 924.500 289.100 924.500 289.000 V 286.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1113" />
+    <path
+       d="M 924.500 298.100 V 295.200 C 924.500 295.100 924.400 295.200 924.500 295.200 H 927.300 C 927.400 295.200 927.300 295.100 927.300 295.200 V 301.000 C 927.300 301.100 927.400 301.000 927.300 301.000 H 924.500 C 924.400 301.000 924.500 301.100 924.500 301.000 V 298.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1115" />
+  </g>
+  <g
+     id="p-5"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 1114.602 158.200 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text1118">Panel</text>
+    <path
+       d="M 1004.602 310.200 H 1224.602 H 1227.602 C 1227.657 310.200 1227.702 310.155 1227.702 310.100 V 307.100 V 13.100 V 10.100 C 1227.702 10.045 1227.657 10.000 1227.602 10.000 H 1224.602 H 1004.602 H 1001.602 C 1001.547 10.000 1001.502 10.045 1001.502 10.100 V 13.100 V 307.100 V 310.100 C 1001.502 310.155 1001.547 310.200 1001.602 310.200 H 1004.602"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1120" />
+  </g>
+  <g
+     id="p-6"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 1281.789 158.200 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text1123">Top</text>
+    <path
+       d="M 1229.302 310.200 H 1235.289 C 1235.344 310.200 1235.389 310.155 1235.389 310.100 V 307.200 C 1235.389 307.100 1235.289 307.200 1235.389 307.200 H 1241.189 C 1241.289 307.200 1241.189 307.100 1241.189 307.200 V 310.100 C 1241.189 310.155 1241.234 310.200 1241.289 310.200 H 1247.289 C 1247.344 310.200 1247.389 310.155 1247.389 310.100 V 307.200 C 1247.389 307.100 1247.289 307.200 1247.389 307.200 H 1253.189 C 1253.289 307.200 1253.189 307.100 1253.189 307.200 V 310.100 C 1253.189 310.155 1253.234 310.200 1253.289 310.200 H 1259.289 C 1259.344 310.200 1259.389 310.155 1259.389 310.100 V 307.200 C 1259.389 307.100 1259.289 307.200 1259.389 307.200 H 1265.189 C 1265.289 307.200 1265.189 307.100 1265.189 307.200 V 310.100 C 1265.189 310.155 1265.234 310.200 1265.289 310.200 H 1271.289 C 1271.344 310.200 1271.389 310.155 1271.389 310.100 V 307.200 C 1271.389 307.100 1271.289 307.200 1271.389 307.200 H 1277.189 C 1277.289 307.200 1277.189 307.100 1277.189 307.200 V 310.100 C 1277.189 310.155 1277.234 310.200 1277.289 310.200 H 1283.289 C 1283.344 310.200 1283.389 310.155 1283.389 310.100 V 307.200 C 1283.389 307.100 1283.289 307.200 1283.389 307.200 H 1289.189 C 1289.289 307.200 1289.189 307.100 1289.189 307.200 V 310.100 C 1289.189 310.155 1289.234 310.200 1289.289 310.200 H 1295.289 C 1295.344 310.200 1295.389 310.155 1295.389 310.100 V 307.200 C 1295.389 307.100 1295.289 307.200 1295.389 307.200 H 1301.189 C 1301.289 307.200 1301.189 307.100 1301.189 307.200 V 310.100 C 1301.189 310.155 1301.234 310.200 1301.289 310.200 H 1307.289 C 1307.344 310.200 1307.389 310.155 1307.389 310.100 V 307.200 C 1307.389 307.100 1307.289 307.200 1307.389 307.200 H 1313.189 C 1313.289 307.200 1313.189 307.100 1313.189 307.200 V 310.100 C 1313.189 310.155 1313.234 310.200 1313.289 310.200 H 1319.289 C 1319.344 310.200 1319.389 310.155 1319.389 310.100 V 307.200 C 1319.389 307.100 1319.289 307.200 1319.389 307.200 H 1325.189 C 1325.289 307.200 1325.189 307.100 1325.189 307.200 V 310.100 C 1325.189 310.155 1325.234 310.200 1325.289 310.200 H 1331.276 H 1334.276 C 1334.332 310.200 1334.376 310.155 1334.376 310.100 V 307.100 V 13.100 V 10.100 C 1334.376 10.045 1334.332 10.000 1334.276 10.000 H 1331.276 H 1325.289 C 1325.234 10.000 1325.189 10.045 1325.189 10.100 V 13.000 C 1325.189 13.100 1325.289 13.000 1325.189 13.000 H 1319.389 C 1319.289 13.000 1319.389 13.100 1319.389 13.000 V 10.100 C 1319.389 10.045 1319.344 10.000 1319.289 10.000 H 1313.289 C 1313.234 10.000 1313.189 10.045 1313.189 10.100 V 13.000 C 1313.189 13.100 1313.289 13.000 1313.189 13.000 H 1307.389 C 1307.289 13.000 1307.389 13.100 1307.389 13.000 V 10.100 C 1307.389 10.045 1307.344 10.000 1307.289 10.000 H 1301.289 C 1301.234 10.000 1301.189 10.045 1301.189 10.100 V 13.000 C 1301.189 13.100 1301.289 13.000 1301.189 13.000 H 1295.389 C 1295.289 13.000 1295.389 13.100 1295.389 13.000 V 10.100 C 1295.389 10.045 1295.344 10.000 1295.289 10.000 H 1289.289 C 1289.234 10.000 1289.189 10.045 1289.189 10.100 V 13.000 C 1289.189 13.100 1289.289 13.000 1289.189 13.000 H 1283.389 C 1283.289 13.000 1283.389 13.100 1283.389 13.000 V 10.100 C 1283.389 10.045 1283.344 10.000 1283.289 10.000 H 1277.289 C 1277.234 10.000 1277.189 10.045 1277.189 10.100 V 13.000 C 1277.189 13.100 1277.289 13.000 1277.189 13.000 H 1271.389 C 1271.289 13.000 1271.389 13.100 1271.389 13.000 V 10.100 C 1271.389 10.045 1271.344 10.000 1271.289 10.000 H 1265.289 C 1265.234 10.000 1265.189 10.045 1265.189 10.100 V 13.000 C 1265.189 13.100 1265.289 13.000 1265.189 13.000 H 1259.389 C 1259.289 13.000 1259.389 13.100 1259.389 13.000 V 10.100 C 1259.389 10.045 1259.344 10.000 1259.289 10.000 H 1253.289 C 1253.234 10.000 1253.189 10.045 1253.189 10.100 V 13.000 C 1253.189 13.100 1253.289 13.000 1253.189 13.000 H 1247.389 C 1247.289 13.000 1247.389 13.100 1247.389 13.000 V 10.100 C 1247.389 10.045 1247.344 10.000 1247.289 10.000 H 1241.289 C 1241.234 10.000 1241.189 10.045 1241.189 10.100 V 13.000 C 1241.189 13.100 1241.289 13.000 1241.189 13.000 H 1235.389 C 1235.289 13.000 1235.389 13.100 1235.389 13.000 V 10.100 C 1235.389 10.045 1235.344 10.000 1235.289 10.000 H 1229.302 C 1229.247 10.000 1229.202 10.045 1229.202 10.100 V 13.100 V 307.100 V 310.100 C 1229.202 310.155 1229.247 310.200 1229.302 310.200"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1125" />
+  </g>
+  <g
+     id="p-7"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1353.976 301.100 H 1349.576 C 1349.476 301.100 1349.576 301.200 1349.576 301.100 V 298.300 C 1349.576 298.200 1349.476 298.300 1349.576 298.300 H 1352.326 C 1352.382 298.300 1352.426 298.255 1352.426 298.200 V 292.200 C 1352.426 292.145 1352.382 292.100 1352.326 292.100 H 1349.576 C 1349.476 292.100 1349.576 292.200 1349.576 292.100 V 289.300 C 1349.576 289.200 1349.476 289.300 1349.576 289.300 H 1358.376 C 1358.476 289.300 1358.376 289.200 1358.376 289.300 V 292.100 C 1358.376 292.200 1358.476 292.100 1358.376 292.100 H 1355.626 C 1355.571 292.100 1355.526 292.145 1355.526 292.200 V 298.200 C 1355.526 298.255 1355.571 298.300 1355.626 298.300 H 1358.376 C 1358.476 298.300 1358.376 298.200 1358.376 298.300 V 301.100 C 1358.376 301.200 1358.476 301.100 1358.376 301.100 H 1353.976 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1128" />
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 1426.901 158.200 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text1130">Back Wall</text>
+    <path
+       d="M 1335.976 310.200 H 1517.826 C 1517.882 310.200 1517.926 310.155 1517.926 310.100 V 307.100 V 13.100 V 10.100 C 1517.926 10.045 1517.882 10.000 1517.826 10.000 H 1335.976 C 1335.921 10.000 1335.876 10.045 1335.876 10.100 V 13.100 V 307.100 V 310.100 C 1335.876 310.155 1335.921 310.200 1335.976 310.200"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1132" />
+    <path
+       d="M 1512.401 304.200 H 1515.301 C 1515.401 304.200 1515.301 304.100 1515.301 304.200 V 307.000 C 1515.301 307.100 1515.401 307.000 1515.301 307.000 H 1509.501 C 1509.401 307.000 1509.501 307.100 1509.501 307.000 V 304.200 C 1509.501 304.100 1509.401 304.200 1509.501 304.200 H 1512.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1134" />
+    <path
+       d="M 1500.401 304.200 H 1503.301 C 1503.401 304.200 1503.301 304.100 1503.301 304.200 V 307.000 C 1503.301 307.100 1503.401 307.000 1503.301 307.000 H 1497.501 C 1497.401 307.000 1497.501 307.100 1497.501 307.000 V 304.200 C 1497.501 304.100 1497.401 304.200 1497.501 304.200 H 1500.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1136" />
+    <path
+       d="M 1488.401 304.200 H 1491.301 C 1491.401 304.200 1491.301 304.100 1491.301 304.200 V 307.000 C 1491.301 307.100 1491.401 307.000 1491.301 307.000 H 1485.501 C 1485.401 307.000 1485.501 307.100 1485.501 307.000 V 304.200 C 1485.501 304.100 1485.401 304.200 1485.501 304.200 H 1488.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1138" />
+    <path
+       d="M 1476.401 304.200 H 1479.301 C 1479.401 304.200 1479.301 304.100 1479.301 304.200 V 307.000 C 1479.301 307.100 1479.401 307.000 1479.301 307.000 H 1473.501 C 1473.401 307.000 1473.501 307.100 1473.501 307.000 V 304.200 C 1473.501 304.100 1473.401 304.200 1473.501 304.200 H 1476.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1140" />
+    <path
+       d="M 1464.401 304.200 H 1467.301 C 1467.401 304.200 1467.301 304.100 1467.301 304.200 V 307.000 C 1467.301 307.100 1467.401 307.000 1467.301 307.000 H 1461.501 C 1461.401 307.000 1461.501 307.100 1461.501 307.000 V 304.200 C 1461.501 304.100 1461.401 304.200 1461.501 304.200 H 1464.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1142" />
+    <path
+       d="M 1452.401 304.200 H 1455.301 C 1455.401 304.200 1455.301 304.100 1455.301 304.200 V 307.000 C 1455.301 307.100 1455.401 307.000 1455.301 307.000 H 1449.501 C 1449.401 307.000 1449.501 307.100 1449.501 307.000 V 304.200 C 1449.501 304.100 1449.401 304.200 1449.501 304.200 H 1452.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1144" />
+    <path
+       d="M 1440.401 304.200 H 1443.301 C 1443.401 304.200 1443.301 304.100 1443.301 304.200 V 307.000 C 1443.301 307.100 1443.401 307.000 1443.301 307.000 H 1437.501 C 1437.401 307.000 1437.501 307.100 1437.501 307.000 V 304.200 C 1437.501 304.100 1437.401 304.200 1437.501 304.200 H 1440.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1146" />
+    <path
+       d="M 1428.401 304.200 H 1431.301 C 1431.401 304.200 1431.301 304.100 1431.301 304.200 V 307.000 C 1431.301 307.100 1431.401 307.000 1431.301 307.000 H 1425.501 C 1425.401 307.000 1425.501 307.100 1425.501 307.000 V 304.200 C 1425.501 304.100 1425.401 304.200 1425.501 304.200 H 1428.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1148" />
+    <path
+       d="M 1416.401 304.200 H 1419.301 C 1419.401 304.200 1419.301 304.100 1419.301 304.200 V 307.000 C 1419.301 307.100 1419.401 307.000 1419.301 307.000 H 1413.501 C 1413.401 307.000 1413.501 307.100 1413.501 307.000 V 304.200 C 1413.501 304.100 1413.401 304.200 1413.501 304.200 H 1416.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1150" />
+    <path
+       d="M 1404.401 304.200 H 1407.301 C 1407.401 304.200 1407.301 304.100 1407.301 304.200 V 307.000 C 1407.301 307.100 1407.401 307.000 1407.301 307.000 H 1401.501 C 1401.401 307.000 1401.501 307.100 1401.501 307.000 V 304.200 C 1401.501 304.100 1401.401 304.200 1401.501 304.200 H 1404.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1152" />
+    <path
+       d="M 1392.401 304.200 H 1395.301 C 1395.401 304.200 1395.301 304.100 1395.301 304.200 V 307.000 C 1395.301 307.100 1395.401 307.000 1395.301 307.000 H 1389.501 C 1389.401 307.000 1389.501 307.100 1389.501 307.000 V 304.200 C 1389.501 304.100 1389.401 304.200 1389.501 304.200 H 1392.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1154" />
+    <path
+       d="M 1380.401 304.200 H 1383.301 C 1383.401 304.200 1383.301 304.100 1383.301 304.200 V 307.000 C 1383.301 307.100 1383.401 307.000 1383.301 307.000 H 1377.501 C 1377.401 307.000 1377.501 307.100 1377.501 307.000 V 304.200 C 1377.501 304.100 1377.401 304.200 1377.501 304.200 H 1380.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1156" />
+    <path
+       d="M 1368.401 304.200 H 1371.301 C 1371.401 304.200 1371.301 304.100 1371.301 304.200 V 307.000 C 1371.301 307.100 1371.401 307.000 1371.301 307.000 H 1365.501 C 1365.401 307.000 1365.501 307.100 1365.501 307.000 V 304.200 C 1365.501 304.100 1365.401 304.200 1365.501 304.200 H 1368.401 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1158" />
+    <path
+       d="M 1354.426 19.100 H 1358.826 C 1358.926 19.100 1358.826 19.000 1358.826 19.100 V 21.900 C 1358.826 22.000 1358.926 21.900 1358.826 21.900 H 1356.076 C 1356.021 21.900 1355.976 21.945 1355.976 22.000 V 28.000 C 1355.976 28.055 1356.021 28.100 1356.076 28.100 H 1358.826 C 1358.926 28.100 1358.826 28.000 1358.826 28.100 V 30.900 C 1358.826 31.000 1358.926 30.900 1358.826 30.900 H 1350.026 C 1349.926 30.900 1350.026 31.000 1350.026 30.900 V 28.100 C 1350.026 28.000 1349.926 28.100 1350.026 28.100 H 1352.776 C 1352.832 28.100 1352.876 28.055 1352.876 28.000 V 22.000 C 1352.876 21.945 1352.832 21.900 1352.776 21.900 H 1350.026 C 1349.926 21.900 1350.026 22.000 1350.026 21.900 V 19.100 C 1350.026 19.000 1349.926 19.100 1350.026 19.100 H 1354.426 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1160" />
+    <path
+       d="M 1368.551 16.000 H 1365.651 C 1365.551 16.000 1365.651 16.100 1365.651 16.000 V 13.200 C 1365.651 13.100 1365.551 13.200 1365.651 13.200 H 1371.451 C 1371.551 13.200 1371.451 13.100 1371.451 13.200 V 16.000 C 1371.451 16.100 1371.551 16.000 1371.451 16.000 H 1368.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1162" />
+    <path
+       d="M 1380.551 16.000 H 1377.651 C 1377.551 16.000 1377.651 16.100 1377.651 16.000 V 13.200 C 1377.651 13.100 1377.551 13.200 1377.651 13.200 H 1383.451 C 1383.551 13.200 1383.451 13.100 1383.451 13.200 V 16.000 C 1383.451 16.100 1383.551 16.000 1383.451 16.000 H 1380.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1164" />
+    <path
+       d="M 1392.551 16.000 H 1389.651 C 1389.551 16.000 1389.651 16.100 1389.651 16.000 V 13.200 C 1389.651 13.100 1389.551 13.200 1389.651 13.200 H 1395.451 C 1395.551 13.200 1395.451 13.100 1395.451 13.200 V 16.000 C 1395.451 16.100 1395.551 16.000 1395.451 16.000 H 1392.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1166" />
+    <path
+       d="M 1404.551 16.000 H 1401.651 C 1401.551 16.000 1401.651 16.100 1401.651 16.000 V 13.200 C 1401.651 13.100 1401.551 13.200 1401.651 13.200 H 1407.451 C 1407.551 13.200 1407.451 13.100 1407.451 13.200 V 16.000 C 1407.451 16.100 1407.551 16.000 1407.451 16.000 H 1404.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1168" />
+    <path
+       d="M 1416.551 16.000 H 1413.651 C 1413.551 16.000 1413.651 16.100 1413.651 16.000 V 13.200 C 1413.651 13.100 1413.551 13.200 1413.651 13.200 H 1419.451 C 1419.551 13.200 1419.451 13.100 1419.451 13.200 V 16.000 C 1419.451 16.100 1419.551 16.000 1419.451 16.000 H 1416.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1170" />
+    <path
+       d="M 1428.551 16.000 H 1425.651 C 1425.551 16.000 1425.651 16.100 1425.651 16.000 V 13.200 C 1425.651 13.100 1425.551 13.200 1425.651 13.200 H 1431.451 C 1431.551 13.200 1431.451 13.100 1431.451 13.200 V 16.000 C 1431.451 16.100 1431.551 16.000 1431.451 16.000 H 1428.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1172" />
+    <path
+       d="M 1440.551 16.000 H 1437.651 C 1437.551 16.000 1437.651 16.100 1437.651 16.000 V 13.200 C 1437.651 13.100 1437.551 13.200 1437.651 13.200 H 1443.451 C 1443.551 13.200 1443.451 13.100 1443.451 13.200 V 16.000 C 1443.451 16.100 1443.551 16.000 1443.451 16.000 H 1440.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1174" />
+    <path
+       d="M 1452.551 16.000 H 1449.651 C 1449.551 16.000 1449.651 16.100 1449.651 16.000 V 13.200 C 1449.651 13.100 1449.551 13.200 1449.651 13.200 H 1455.451 C 1455.551 13.200 1455.451 13.100 1455.451 13.200 V 16.000 C 1455.451 16.100 1455.551 16.000 1455.451 16.000 H 1452.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1176" />
+    <path
+       d="M 1464.551 16.000 H 1461.651 C 1461.551 16.000 1461.651 16.100 1461.651 16.000 V 13.200 C 1461.651 13.100 1461.551 13.200 1461.651 13.200 H 1467.451 C 1467.551 13.200 1467.451 13.100 1467.451 13.200 V 16.000 C 1467.451 16.100 1467.551 16.000 1467.451 16.000 H 1464.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1178" />
+    <path
+       d="M 1476.551 16.000 H 1473.651 C 1473.551 16.000 1473.651 16.100 1473.651 16.000 V 13.200 C 1473.651 13.100 1473.551 13.200 1473.651 13.200 H 1479.451 C 1479.551 13.200 1479.451 13.100 1479.451 13.200 V 16.000 C 1479.451 16.100 1479.551 16.000 1479.451 16.000 H 1476.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1180" />
+    <path
+       d="M 1488.551 16.000 H 1485.651 C 1485.551 16.000 1485.651 16.100 1485.651 16.000 V 13.200 C 1485.651 13.100 1485.551 13.200 1485.651 13.200 H 1491.451 C 1491.551 13.200 1491.451 13.100 1491.451 13.200 V 16.000 C 1491.451 16.100 1491.551 16.000 1491.451 16.000 H 1488.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1182" />
+    <path
+       d="M 1500.551 16.000 H 1497.651 C 1497.551 16.000 1497.651 16.100 1497.651 16.000 V 13.200 C 1497.651 13.100 1497.551 13.200 1497.651 13.200 H 1503.451 C 1503.551 13.200 1503.451 13.100 1503.451 13.200 V 16.000 C 1503.451 16.100 1503.551 16.000 1503.451 16.000 H 1500.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1184" />
+    <path
+       d="M 1512.551 16.000 H 1509.651 C 1509.551 16.000 1509.651 16.100 1509.651 16.000 V 13.200 C 1509.651 13.100 1509.551 13.200 1509.651 13.200 H 1515.451 C 1515.551 13.200 1515.451 13.100 1515.451 13.200 V 16.000 C 1515.451 16.100 1515.551 16.000 1515.451 16.000 H 1512.551 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1186" />
+  </g>
+  <g
+     id="p-8"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 1524.026 227.775 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text1189">Guide</text>
+    <path
+       d="M 1522.526 310.200 H 1528.526 C 1528.582 310.200 1528.626 310.155 1528.626 310.100 V 307.100 V 152.250 V 149.250 C 1528.626 149.195 1528.582 149.150 1528.526 149.150 H 1522.526 C 1522.471 149.150 1522.426 149.195 1522.426 149.250 V 152.250 V 154.575 C 1522.426 154.675 1522.526 154.575 1522.426 154.575 H 1519.526 C 1519.471 154.575 1519.426 154.620 1519.426 154.675 V 160.675 C 1519.426 160.730 1519.471 160.775 1519.526 160.775 H 1522.426 C 1522.526 160.775 1522.426 160.675 1522.426 160.775 V 166.575 C 1522.426 166.675 1522.526 166.575 1522.426 166.575 H 1519.526 C 1519.471 166.575 1519.426 166.620 1519.426 166.675 V 172.675 C 1519.426 172.730 1519.471 172.775 1519.526 172.775 H 1522.426 C 1522.526 172.775 1522.426 172.675 1522.426 172.775 V 178.575 C 1522.426 178.675 1522.526 178.575 1522.426 178.575 H 1519.526 C 1519.471 178.575 1519.426 178.620 1519.426 178.675 V 184.675 C 1519.426 184.730 1519.471 184.775 1519.526 184.775 H 1522.426 C 1522.526 184.775 1522.426 184.675 1522.426 184.775 V 190.575 C 1522.426 190.675 1522.526 190.575 1522.426 190.575 H 1519.526 C 1519.471 190.575 1519.426 190.620 1519.426 190.675 V 196.675 C 1519.426 196.730 1519.471 196.775 1519.526 196.775 H 1522.426 C 1522.526 196.775 1522.426 196.675 1522.426 196.775 V 202.575 C 1522.426 202.675 1522.526 202.575 1522.426 202.575 H 1519.526 C 1519.471 202.575 1519.426 202.620 1519.426 202.675 V 208.675 C 1519.426 208.730 1519.471 208.775 1519.526 208.775 H 1522.426 C 1522.526 208.775 1522.426 208.675 1522.426 208.775 V 214.575 C 1522.426 214.675 1522.526 214.575 1522.426 214.575 H 1519.526 C 1519.471 214.575 1519.426 214.620 1519.426 214.675 V 220.675 C 1519.426 220.730 1519.471 220.775 1519.526 220.775 H 1522.426 C 1522.526 220.775 1522.426 220.675 1522.426 220.775 V 226.575 C 1522.426 226.675 1522.526 226.575 1522.426 226.575 H 1519.526 C 1519.471 226.575 1519.426 226.620 1519.426 226.675 V 232.675 C 1519.426 232.730 1519.471 232.775 1519.526 232.775 H 1522.426 C 1522.526 232.775 1522.426 232.675 1522.426 232.775 V 238.575 C 1522.426 238.675 1522.526 238.575 1522.426 238.575 H 1519.526 C 1519.471 238.575 1519.426 238.620 1519.426 238.675 V 244.675 C 1519.426 244.730 1519.471 244.775 1519.526 244.775 H 1522.426 C 1522.526 244.775 1522.426 244.675 1522.426 244.775 V 250.575 C 1522.426 250.675 1522.526 250.575 1522.426 250.575 H 1519.526 C 1519.471 250.575 1519.426 250.620 1519.426 250.675 V 256.675 C 1519.426 256.730 1519.471 256.775 1519.526 256.775 H 1522.426 C 1522.526 256.775 1522.426 256.675 1522.426 256.775 V 262.575 C 1522.426 262.675 1522.526 262.575 1522.426 262.575 H 1519.526 C 1519.471 262.575 1519.426 262.620 1519.426 262.675 V 268.675 C 1519.426 268.730 1519.471 268.775 1519.526 268.775 H 1522.426 C 1522.526 268.775 1522.426 268.675 1522.426 268.775 V 274.575 C 1522.426 274.675 1522.526 274.575 1522.426 274.575 H 1519.526 C 1519.471 274.575 1519.426 274.620 1519.426 274.675 V 280.675 C 1519.426 280.730 1519.471 280.775 1519.526 280.775 H 1522.426 C 1522.526 280.775 1522.426 280.675 1522.426 280.775 V 286.575 C 1522.426 286.675 1522.526 286.575 1522.426 286.575 H 1519.526 C 1519.471 286.575 1519.426 286.620 1519.426 286.675 V 292.675 C 1519.426 292.730 1519.471 292.775 1519.526 292.775 H 1522.426 C 1522.526 292.775 1522.426 292.675 1522.426 292.775 V 298.575 C 1522.426 298.675 1522.526 298.575 1522.426 298.575 H 1519.526 C 1519.471 298.575 1519.426 298.620 1519.426 298.675 V 304.675 C 1519.426 304.730 1519.471 304.775 1519.526 304.775 H 1522.426 C 1522.526 304.775 1522.426 304.675 1522.426 304.775 V 307.100 V 310.100 C 1522.426 310.155 1522.471 310.200 1522.526 310.200"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1191" />
+  </g>
+  <g
+     id="p-9"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 1534.726 227.775 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text1194">Guide</text>
+    <path
+       d="M 1533.226 310.200 H 1539.226 C 1539.282 310.200 1539.326 310.155 1539.326 310.100 V 307.100 V 152.250 V 149.250 C 1539.326 149.195 1539.282 149.150 1539.226 149.150 H 1533.226 C 1533.171 149.150 1533.126 149.195 1533.126 149.250 V 152.250 V 154.575 C 1533.126 154.675 1533.226 154.575 1533.126 154.575 H 1530.226 C 1530.171 154.575 1530.126 154.620 1530.126 154.675 V 160.675 C 1530.126 160.730 1530.171 160.775 1530.226 160.775 H 1533.126 C 1533.226 160.775 1533.126 160.675 1533.126 160.775 V 166.575 C 1533.126 166.675 1533.226 166.575 1533.126 166.575 H 1530.226 C 1530.171 166.575 1530.126 166.620 1530.126 166.675 V 172.675 C 1530.126 172.730 1530.171 172.775 1530.226 172.775 H 1533.126 C 1533.226 172.775 1533.126 172.675 1533.126 172.775 V 178.575 C 1533.126 178.675 1533.226 178.575 1533.126 178.575 H 1530.226 C 1530.171 178.575 1530.126 178.620 1530.126 178.675 V 184.675 C 1530.126 184.730 1530.171 184.775 1530.226 184.775 H 1533.126 C 1533.226 184.775 1533.126 184.675 1533.126 184.775 V 190.575 C 1533.126 190.675 1533.226 190.575 1533.126 190.575 H 1530.226 C 1530.171 190.575 1530.126 190.620 1530.126 190.675 V 196.675 C 1530.126 196.730 1530.171 196.775 1530.226 196.775 H 1533.126 C 1533.226 196.775 1533.126 196.675 1533.126 196.775 V 202.575 C 1533.126 202.675 1533.226 202.575 1533.126 202.575 H 1530.226 C 1530.171 202.575 1530.126 202.620 1530.126 202.675 V 208.675 C 1530.126 208.730 1530.171 208.775 1530.226 208.775 H 1533.126 C 1533.226 208.775 1533.126 208.675 1533.126 208.775 V 214.575 C 1533.126 214.675 1533.226 214.575 1533.126 214.575 H 1530.226 C 1530.171 214.575 1530.126 214.620 1530.126 214.675 V 220.675 C 1530.126 220.730 1530.171 220.775 1530.226 220.775 H 1533.126 C 1533.226 220.775 1533.126 220.675 1533.126 220.775 V 226.575 C 1533.126 226.675 1533.226 226.575 1533.126 226.575 H 1530.226 C 1530.171 226.575 1530.126 226.620 1530.126 226.675 V 232.675 C 1530.126 232.730 1530.171 232.775 1530.226 232.775 H 1533.126 C 1533.226 232.775 1533.126 232.675 1533.126 232.775 V 238.575 C 1533.126 238.675 1533.226 238.575 1533.126 238.575 H 1530.226 C 1530.171 238.575 1530.126 238.620 1530.126 238.675 V 244.675 C 1530.126 244.730 1530.171 244.775 1530.226 244.775 H 1533.126 C 1533.226 244.775 1533.126 244.675 1533.126 244.775 V 250.575 C 1533.126 250.675 1533.226 250.575 1533.126 250.575 H 1530.226 C 1530.171 250.575 1530.126 250.620 1530.126 250.675 V 256.675 C 1530.126 256.730 1530.171 256.775 1530.226 256.775 H 1533.126 C 1533.226 256.775 1533.126 256.675 1533.126 256.775 V 262.575 C 1533.126 262.675 1533.226 262.575 1533.126 262.575 H 1530.226 C 1530.171 262.575 1530.126 262.620 1530.126 262.675 V 268.675 C 1530.126 268.730 1530.171 268.775 1530.226 268.775 H 1533.126 C 1533.226 268.775 1533.126 268.675 1533.126 268.775 V 274.575 C 1533.126 274.675 1533.226 274.575 1533.126 274.575 H 1530.226 C 1530.171 274.575 1530.126 274.620 1530.126 274.675 V 280.675 C 1530.126 280.730 1530.171 280.775 1530.226 280.775 H 1533.126 C 1533.226 280.775 1533.126 280.675 1533.126 280.775 V 286.575 C 1533.126 286.675 1533.226 286.575 1533.126 286.575 H 1530.226 C 1530.171 286.575 1530.126 286.620 1530.126 286.675 V 292.675 C 1530.126 292.730 1530.171 292.775 1530.226 292.775 H 1533.126 C 1533.226 292.775 1533.126 292.675 1533.126 292.775 V 298.575 C 1533.126 298.675 1533.226 298.575 1533.126 298.575 H 1530.226 C 1530.171 298.575 1530.126 298.620 1530.126 298.675 V 304.675 C 1530.126 304.730 1530.171 304.775 1530.226 304.775 H 1533.126 C 1533.226 304.775 1533.126 304.675 1533.126 304.775 V 307.100 V 310.100 C 1533.126 310.155 1533.171 310.200 1533.226 310.200"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1196" />
+  </g>
+  <g
+     id="p-10"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <text
+       transform="matrix( 1.000 0.000 0.000 1.000 1548.426 158.200 )"
+       style="font-family: sans-serif ; font-weight: normal; font-style: normal; fill: rgb(255,0,0)"
+       font-size="4px"
+       text-anchor="middle"
+       dominant-baseline="hanging"
+       id="text1199">Bottom Back</text>
+    <path
+       d="M 1540.926 310.200 H 1545.426 C 1545.482 310.200 1545.526 310.155 1545.526 310.100 V 307.200 C 1545.526 307.100 1545.426 307.200 1545.526 307.200 H 1551.326 C 1551.426 307.200 1551.326 307.100 1551.326 307.200 V 310.100 C 1551.326 310.155 1551.371 310.200 1551.426 310.200 H 1555.926 C 1555.982 310.200 1556.026 310.155 1556.026 310.100 V 307.100 V 295.100 C 1556.026 294.029 1555.744 292.977 1555.209 292.050 C 1554.674 291.123 1553.904 290.353 1552.976 289.817 C 1552.079 289.299 1551.335 288.555 1550.817 287.658 C 1550.299 286.761 1550.026 285.743 1550.026 284.708 V 35.492 C 1550.026 34.457 1550.299 33.439 1550.817 32.542 C 1551.335 31.645 1552.079 30.901 1552.976 30.383 C 1553.904 29.847 1554.674 29.077 1555.209 28.150 C 1555.744 27.223 1556.026 26.171 1556.026 25.100 V 13.100 V 10.100 C 1556.026 10.045 1555.982 10.000 1555.926 10.000 H 1551.426 C 1551.371 10.000 1551.326 10.045 1551.326 10.100 V 13.000 C 1551.326 13.100 1551.426 13.000 1551.326 13.000 H 1545.526 C 1545.426 13.000 1545.526 13.100 1545.526 13.000 V 10.100 C 1545.526 10.045 1545.482 10.000 1545.426 10.000 H 1540.926 C 1540.871 10.000 1540.826 10.045 1540.826 10.100 V 13.100 V 307.100 V 310.100 C 1540.826 310.155 1540.871 310.200 1540.926 310.200"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1201" />
+    <path
+       d="M 1546.926 298.100 V 301.000 C 1546.926 301.100 1547.026 301.000 1546.926 301.000 H 1544.126 C 1544.026 301.000 1544.126 301.100 1544.126 301.000 V 295.200 C 1544.126 295.100 1544.026 295.200 1544.126 295.200 H 1546.926 C 1547.026 295.200 1546.926 295.100 1546.926 295.200 V 298.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1203" />
+    <path
+       d="M 1546.926 286.100 V 289.000 C 1546.926 289.100 1547.026 289.000 1546.926 289.000 H 1544.126 C 1544.026 289.000 1544.126 289.100 1544.126 289.000 V 283.200 C 1544.126 283.100 1544.026 283.200 1544.126 283.200 H 1546.926 C 1547.026 283.200 1546.926 283.100 1546.926 283.200 V 286.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1205" />
+    <path
+       d="M 1546.926 274.100 V 277.000 C 1546.926 277.100 1547.026 277.000 1546.926 277.000 H 1544.126 C 1544.026 277.000 1544.126 277.100 1544.126 277.000 V 271.200 C 1544.126 271.100 1544.026 271.200 1544.126 271.200 H 1546.926 C 1547.026 271.200 1546.926 271.100 1546.926 271.200 V 274.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1207" />
+    <path
+       d="M 1546.926 262.100 V 265.000 C 1546.926 265.100 1547.026 265.000 1546.926 265.000 H 1544.126 C 1544.026 265.000 1544.126 265.100 1544.126 265.000 V 259.200 C 1544.126 259.100 1544.026 259.200 1544.126 259.200 H 1546.926 C 1547.026 259.200 1546.926 259.100 1546.926 259.200 V 262.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1209" />
+    <path
+       d="M 1546.926 250.100 V 253.000 C 1546.926 253.100 1547.026 253.000 1546.926 253.000 H 1544.126 C 1544.026 253.000 1544.126 253.100 1544.126 253.000 V 247.200 C 1544.126 247.100 1544.026 247.200 1544.126 247.200 H 1546.926 C 1547.026 247.200 1546.926 247.100 1546.926 247.200 V 250.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1211" />
+    <path
+       d="M 1546.926 238.100 V 241.000 C 1546.926 241.100 1547.026 241.000 1546.926 241.000 H 1544.126 C 1544.026 241.000 1544.126 241.100 1544.126 241.000 V 235.200 C 1544.126 235.100 1544.026 235.200 1544.126 235.200 H 1546.926 C 1547.026 235.200 1546.926 235.100 1546.926 235.200 V 238.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1213" />
+    <path
+       d="M 1546.926 226.100 V 229.000 C 1546.926 229.100 1547.026 229.000 1546.926 229.000 H 1544.126 C 1544.026 229.000 1544.126 229.100 1544.126 229.000 V 223.200 C 1544.126 223.100 1544.026 223.200 1544.126 223.200 H 1546.926 C 1547.026 223.200 1546.926 223.100 1546.926 223.200 V 226.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1215" />
+    <path
+       d="M 1546.926 214.100 V 217.000 C 1546.926 217.100 1547.026 217.000 1546.926 217.000 H 1544.126 C 1544.026 217.000 1544.126 217.100 1544.126 217.000 V 211.200 C 1544.126 211.100 1544.026 211.200 1544.126 211.200 H 1546.926 C 1547.026 211.200 1546.926 211.100 1546.926 211.200 V 214.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1217" />
+    <path
+       d="M 1546.926 202.100 V 205.000 C 1546.926 205.100 1547.026 205.000 1546.926 205.000 H 1544.126 C 1544.026 205.000 1544.126 205.100 1544.126 205.000 V 199.200 C 1544.126 199.100 1544.026 199.200 1544.126 199.200 H 1546.926 C 1547.026 199.200 1546.926 199.100 1546.926 199.200 V 202.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1219" />
+    <path
+       d="M 1546.926 190.100 V 193.000 C 1546.926 193.100 1547.026 193.000 1546.926 193.000 H 1544.126 C 1544.026 193.000 1544.126 193.100 1544.126 193.000 V 187.200 C 1544.126 187.100 1544.026 187.200 1544.126 187.200 H 1546.926 C 1547.026 187.200 1546.926 187.100 1546.926 187.200 V 190.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1221" />
+    <path
+       d="M 1546.926 178.100 V 181.000 C 1546.926 181.100 1547.026 181.000 1546.926 181.000 H 1544.126 C 1544.026 181.000 1544.126 181.100 1544.126 181.000 V 175.200 C 1544.126 175.100 1544.026 175.200 1544.126 175.200 H 1546.926 C 1547.026 175.200 1546.926 175.100 1546.926 175.200 V 178.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1223" />
+    <path
+       d="M 1546.926 166.100 V 169.000 C 1546.926 169.100 1547.026 169.000 1546.926 169.000 H 1544.126 C 1544.026 169.000 1544.126 169.100 1544.126 169.000 V 163.200 C 1544.126 163.100 1544.026 163.200 1544.126 163.200 H 1546.926 C 1547.026 163.200 1546.926 163.100 1546.926 163.200 V 166.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1225" />
+    <path
+       d="M 1546.926 154.100 V 157.000 C 1546.926 157.100 1547.026 157.000 1546.926 157.000 H 1544.126 C 1544.026 157.000 1544.126 157.100 1544.126 157.000 V 151.200 C 1544.126 151.100 1544.026 151.200 1544.126 151.200 H 1546.926 C 1547.026 151.200 1546.926 151.100 1546.926 151.200 V 154.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1227" />
+    <path
+       d="M 1546.926 142.100 V 145.000 C 1546.926 145.100 1547.026 145.000 1546.926 145.000 H 1544.126 C 1544.026 145.000 1544.126 145.100 1544.126 145.000 V 139.200 C 1544.126 139.100 1544.026 139.200 1544.126 139.200 H 1546.926 C 1547.026 139.200 1546.926 139.100 1546.926 139.200 V 142.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1229" />
+    <path
+       d="M 1546.926 130.100 V 133.000 C 1546.926 133.100 1547.026 133.000 1546.926 133.000 H 1544.126 C 1544.026 133.000 1544.126 133.100 1544.126 133.000 V 127.200 C 1544.126 127.100 1544.026 127.200 1544.126 127.200 H 1546.926 C 1547.026 127.200 1546.926 127.100 1546.926 127.200 V 130.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1231" />
+    <path
+       d="M 1546.926 118.100 V 121.000 C 1546.926 121.100 1547.026 121.000 1546.926 121.000 H 1544.126 C 1544.026 121.000 1544.126 121.100 1544.126 121.000 V 115.200 C 1544.126 115.100 1544.026 115.200 1544.126 115.200 H 1546.926 C 1547.026 115.200 1546.926 115.100 1546.926 115.200 V 118.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1233" />
+    <path
+       d="M 1546.926 106.100 V 109.000 C 1546.926 109.100 1547.026 109.000 1546.926 109.000 H 1544.126 C 1544.026 109.000 1544.126 109.100 1544.126 109.000 V 103.200 C 1544.126 103.100 1544.026 103.200 1544.126 103.200 H 1546.926 C 1547.026 103.200 1546.926 103.100 1546.926 103.200 V 106.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1235" />
+    <path
+       d="M 1546.926 94.100 V 97.000 C 1546.926 97.100 1547.026 97.000 1546.926 97.000 H 1544.126 C 1544.026 97.000 1544.126 97.100 1544.126 97.000 V 91.200 C 1544.126 91.100 1544.026 91.200 1544.126 91.200 H 1546.926 C 1547.026 91.200 1546.926 91.100 1546.926 91.200 V 94.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1237" />
+    <path
+       d="M 1546.926 82.100 V 85.000 C 1546.926 85.100 1547.026 85.000 1546.926 85.000 H 1544.126 C 1544.026 85.000 1544.126 85.100 1544.126 85.000 V 79.200 C 1544.126 79.100 1544.026 79.200 1544.126 79.200 H 1546.926 C 1547.026 79.200 1546.926 79.100 1546.926 79.200 V 82.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1239" />
+    <path
+       d="M 1546.926 70.100 V 73.000 C 1546.926 73.100 1547.026 73.000 1546.926 73.000 H 1544.126 C 1544.026 73.000 1544.126 73.100 1544.126 73.000 V 67.200 C 1544.126 67.100 1544.026 67.200 1544.126 67.200 H 1546.926 C 1547.026 67.200 1546.926 67.100 1546.926 67.200 V 70.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1241" />
+    <path
+       d="M 1546.926 58.100 V 61.000 C 1546.926 61.100 1547.026 61.000 1546.926 61.000 H 1544.126 C 1544.026 61.000 1544.126 61.100 1544.126 61.000 V 55.200 C 1544.126 55.100 1544.026 55.200 1544.126 55.200 H 1546.926 C 1547.026 55.200 1546.926 55.100 1546.926 55.200 V 58.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1243" />
+    <path
+       d="M 1546.926 46.100 V 49.000 C 1546.926 49.100 1547.026 49.000 1546.926 49.000 H 1544.126 C 1544.026 49.000 1544.126 49.100 1544.126 49.000 V 43.200 C 1544.126 43.100 1544.026 43.200 1544.126 43.200 H 1546.926 C 1547.026 43.200 1546.926 43.100 1546.926 43.200 V 46.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1245" />
+    <path
+       d="M 1546.926 34.100 V 37.000 C 1546.926 37.100 1547.026 37.000 1546.926 37.000 H 1544.126 C 1544.026 37.000 1544.126 37.100 1544.126 37.000 V 31.200 C 1544.126 31.100 1544.026 31.200 1544.126 31.200 H 1546.926 C 1547.026 31.200 1546.926 31.100 1546.926 31.200 V 34.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1247" />
+    <path
+       d="M 1546.926 22.100 V 25.000 C 1546.926 25.100 1547.026 25.000 1546.926 25.000 H 1544.126 C 1544.026 25.000 1544.126 25.100 1544.126 25.000 V 19.200 C 1544.126 19.100 1544.026 19.200 1544.126 19.200 H 1546.926 C 1547.026 19.200 1546.926 19.100 1546.926 19.200 V 22.100 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1249" />
+  </g>
+  <g
+     id="p-11"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1566.626 307.200 V 19.350 C 1566.626 19.295 1566.582 19.250 1566.526 19.250 H 1563.626 C 1563.526 19.250 1563.626 19.350 1563.626 19.250 V 16.350 C 1563.626 16.295 1563.582 16.250 1563.526 16.250 H 1560.526 C 1560.471 16.250 1560.426 16.295 1560.426 16.350 V 19.250 C 1560.426 19.350 1560.526 19.250 1560.426 19.250 H 1557.526 C 1557.471 19.250 1557.426 19.295 1557.426 19.350 V 307.200 C 1557.426 307.255 1557.471 307.300 1557.526 307.300 H 1560.426 C 1560.526 307.300 1560.426 307.200 1560.426 307.300 V 310.200 C 1560.426 310.255 1560.471 310.300 1560.526 310.300 H 1563.526 C 1563.582 310.300 1563.626 310.255 1563.626 310.200 V 307.300 C 1563.626 307.200 1563.526 307.300 1563.626 307.300 H 1566.526 C 1566.582 307.300 1566.626 307.255 1566.626 307.200 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1252" />
+  </g>
+  <g
+     id="p-12"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1577.326 307.200 V 19.350 C 1577.326 19.295 1577.282 19.250 1577.226 19.250 H 1574.326 C 1574.226 19.250 1574.326 19.350 1574.326 19.250 V 16.350 C 1574.326 16.295 1574.282 16.250 1574.226 16.250 H 1571.226 C 1571.171 16.250 1571.126 16.295 1571.126 16.350 V 19.250 C 1571.126 19.350 1571.226 19.250 1571.126 19.250 H 1568.226 C 1568.171 19.250 1568.126 19.295 1568.126 19.350 V 307.200 C 1568.126 307.255 1568.171 307.300 1568.226 307.300 H 1571.126 C 1571.226 307.300 1571.126 307.200 1571.126 307.300 V 310.200 C 1571.126 310.255 1571.171 310.300 1571.226 310.300 H 1574.226 C 1574.282 310.300 1574.326 310.255 1574.326 310.200 V 307.300 C 1574.326 307.200 1574.226 307.300 1574.326 307.300 H 1577.226 C 1577.282 307.300 1577.326 307.255 1577.326 307.200 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1255" />
+  </g>
+  <g
+     id="p-13"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1680.026 304.200 V 307.200 C 1680.026 307.255 1680.071 307.300 1680.126 307.300 H 1686.126 C 1686.182 307.300 1686.226 307.255 1686.226 307.200 V 304.300 C 1686.226 304.200 1686.126 304.300 1686.226 304.300 H 1781.026 C 1781.126 304.300 1781.026 304.200 1781.026 304.300 V 308.700 C 1781.026 308.981 1781.100 309.257 1781.241 309.500 C 1781.381 309.743 1781.583 309.945 1781.826 310.086 C 1782.070 310.226 1782.345 310.300 1782.626 310.300 H 1785.626 C 1785.907 310.300 1786.183 310.226 1786.426 310.086 C 1786.670 309.945 1786.872 309.743 1787.012 309.500 C 1787.152 309.257 1787.226 308.981 1787.226 308.700 V 305.700 C 1787.226 305.645 1787.182 305.600 1787.126 305.600 H 1785.726 C 1785.626 305.600 1785.726 305.700 1785.726 305.600 V 304.200 C 1785.726 304.255 1785.682 304.300 1785.626 304.300 C 1785.907 304.300 1786.183 304.226 1786.426 304.086 C 1786.670 303.945 1786.872 303.743 1787.012 303.500 C 1787.152 303.257 1787.226 302.981 1787.226 302.700 C 1787.226 302.645 1787.182 302.600 1787.126 302.600 H 1579.126 C 1579.071 302.600 1579.026 302.645 1579.026 302.700 C 1579.026 302.981 1579.100 303.257 1579.241 303.500 C 1579.381 303.743 1579.583 303.945 1579.826 304.086 C 1580.070 304.226 1580.345 304.300 1580.626 304.300 C 1580.571 304.300 1580.526 304.255 1580.526 304.200 V 305.600 C 1580.526 305.700 1580.626 305.600 1580.526 305.600 H 1579.126 C 1579.071 305.600 1579.026 305.645 1579.026 305.700 V 308.700 C 1579.026 308.981 1579.100 309.257 1579.241 309.500 C 1579.381 309.743 1579.583 309.945 1579.826 310.086 C 1580.070 310.226 1580.345 310.300 1580.626 310.300 H 1583.626 C 1583.907 310.300 1584.183 310.226 1584.426 310.086 C 1584.670 309.945 1584.872 309.743 1585.012 309.500 C 1585.152 309.257 1585.226 308.981 1585.226 308.700 V 304.300 C 1585.226 304.200 1585.126 304.300 1585.226 304.300 H 1680.126"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1258" />
+  </g>
+  <g
+     id="p-14"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1680.026 295.000 V 298.000 C 1680.026 298.055 1680.071 298.100 1680.126 298.100 H 1686.126 C 1686.182 298.100 1686.226 298.055 1686.226 298.000 V 295.100 C 1686.226 295.000 1686.126 295.100 1686.226 295.100 H 1781.026 C 1781.126 295.100 1781.026 295.000 1781.026 295.100 V 299.500 C 1781.026 299.781 1781.100 300.057 1781.241 300.300 C 1781.381 300.543 1781.583 300.745 1781.826 300.886 C 1782.070 301.026 1782.345 301.100 1782.626 301.100 H 1785.626 C 1785.907 301.100 1786.183 301.026 1786.426 300.886 C 1786.670 300.745 1786.872 300.543 1787.012 300.300 C 1787.152 300.057 1787.226 299.781 1787.226 299.500 V 296.500 C 1787.226 296.445 1787.182 296.400 1787.126 296.400 H 1785.726 C 1785.626 296.400 1785.726 296.500 1785.726 296.400 V 295.000 C 1785.726 295.055 1785.682 295.100 1785.626 295.100 C 1785.907 295.100 1786.183 295.026 1786.426 294.886 C 1786.670 294.745 1786.872 294.543 1787.012 294.300 C 1787.152 294.057 1787.226 293.781 1787.226 293.500 C 1787.226 293.445 1787.182 293.400 1787.126 293.400 H 1579.126 C 1579.071 293.400 1579.026 293.445 1579.026 293.500 C 1579.026 293.781 1579.100 294.057 1579.241 294.300 C 1579.381 294.543 1579.583 294.745 1579.826 294.886 C 1580.070 295.026 1580.345 295.100 1580.626 295.100 C 1580.571 295.100 1580.526 295.055 1580.526 295.000 V 296.400 C 1580.526 296.500 1580.626 296.400 1580.526 296.400 H 1579.126 C 1579.071 296.400 1579.026 296.445 1579.026 296.500 V 299.500 C 1579.026 299.781 1579.100 300.057 1579.241 300.300 C 1579.381 300.543 1579.583 300.745 1579.826 300.886 C 1580.070 301.026 1580.345 301.100 1580.626 301.100 H 1583.626 C 1583.907 301.100 1584.183 301.026 1584.426 300.886 C 1584.670 300.745 1584.872 300.543 1585.012 300.300 C 1585.152 300.057 1585.226 299.781 1585.226 299.500 V 295.100 C 1585.226 295.000 1585.126 295.100 1585.226 295.100 H 1680.126"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1261" />
+  </g>
+  <g
+     id="p-15"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1588.026 288.775 H 1583.626 C 1583.526 288.775 1583.626 288.875 1583.626 288.775 V 285.825 C 1583.626 285.725 1583.526 285.825 1583.626 285.825 H 1592.426 C 1592.526 285.825 1592.426 285.725 1592.426 285.825 V 288.775 C 1592.426 288.875 1592.526 288.775 1592.426 288.775 H 1588.026 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1264" />
+    <path
+       d="M 1790.026 288.775 H 1785.626 C 1785.526 288.775 1785.626 288.875 1785.626 288.775 V 285.825 C 1785.626 285.725 1785.526 285.825 1785.626 285.825 H 1794.426 C 1794.526 285.825 1794.426 285.725 1794.426 285.825 V 288.775 C 1794.426 288.875 1794.526 288.775 1794.426 288.775 H 1790.026 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1266" />
+    <path
+       d="M 1689.026 288.700 H 1686.126 C 1686.026 288.700 1686.126 288.800 1686.126 288.700 V 285.900 C 1686.126 285.800 1686.026 285.900 1686.126 285.900 H 1691.926 C 1692.026 285.900 1691.926 285.800 1691.926 285.900 V 288.700 C 1691.926 288.800 1692.026 288.700 1691.926 288.700 H 1689.026 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1268" />
+    <path
+       d="M 1579.026 291.800 H 1799.026 C 1799.082 291.800 1799.126 291.755 1799.126 291.700 V 288.700 C 1799.126 288.645 1799.082 288.600 1799.026 288.600 H 1796.126 C 1796.026 288.600 1796.126 288.700 1796.126 288.600 V 285.800 C 1796.126 285.700 1796.026 285.800 1796.126 285.800 H 1799.026 C 1799.082 285.800 1799.126 285.755 1799.126 285.700 V 282.700 C 1799.126 282.645 1799.082 282.600 1799.026 282.600 H 1579.026 C 1578.971 282.600 1578.926 282.645 1578.926 282.700 V 285.700 C 1578.926 285.755 1578.971 285.800 1579.026 285.800 H 1581.926 C 1582.026 285.800 1581.926 285.700 1581.926 285.800 V 288.600 C 1581.926 288.700 1582.026 288.600 1581.926 288.600 H 1579.026 C 1578.971 288.600 1578.926 288.645 1578.926 288.700 V 291.700 C 1578.926 291.755 1578.971 291.800 1579.026 291.800 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1270" />
+  </g>
+  <g
+     id="p-16"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1588.026 278.075 H 1583.626 C 1583.526 278.075 1583.626 278.175 1583.626 278.075 V 275.125 C 1583.626 275.025 1583.526 275.125 1583.626 275.125 H 1592.426 C 1592.526 275.125 1592.426 275.025 1592.426 275.125 V 278.075 C 1592.426 278.175 1592.526 278.075 1592.426 278.075 H 1588.026 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1273" />
+    <path
+       d="M 1790.026 278.075 H 1785.626 C 1785.526 278.075 1785.626 278.175 1785.626 278.075 V 275.125 C 1785.626 275.025 1785.526 275.125 1785.626 275.125 H 1794.426 C 1794.526 275.125 1794.426 275.025 1794.426 275.125 V 278.075 C 1794.426 278.175 1794.526 278.075 1794.426 278.075 H 1790.026 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1275" />
+    <path
+       d="M 1689.026 278.000 H 1686.126 C 1686.026 278.000 1686.126 278.100 1686.126 278.000 V 275.200 C 1686.126 275.100 1686.026 275.200 1686.126 275.200 H 1691.926 C 1692.026 275.200 1691.926 275.100 1691.926 275.200 V 278.000 C 1691.926 278.100 1692.026 278.000 1691.926 278.000 H 1689.026 Z"
+       stroke="rgb(0,0,255)"
+       stroke-width="0.20"
+       id="path1277" />
+    <path
+       d="M 1579.026 281.100 H 1799.026 C 1799.082 281.100 1799.126 281.055 1799.126 281.000 V 278.000 C 1799.126 277.945 1799.082 277.900 1799.026 277.900 H 1796.126 C 1796.026 277.900 1796.126 278.000 1796.126 277.900 V 275.100 C 1796.126 275.000 1796.026 275.100 1796.126 275.100 H 1799.026 C 1799.082 275.100 1799.126 275.055 1799.126 275.000 V 272.000 C 1799.126 271.945 1799.082 271.900 1799.026 271.900 H 1579.026 C 1578.971 271.900 1578.926 271.945 1578.926 272.000 V 275.000 C 1578.926 275.055 1578.971 275.100 1579.026 275.100 H 1581.926 C 1582.026 275.100 1581.926 275.000 1581.926 275.100 V 277.900 C 1581.926 278.000 1582.026 277.900 1581.926 277.900 H 1579.026 C 1578.971 277.900 1578.926 277.945 1578.926 278.000 V 281.000 C 1578.926 281.055 1578.971 281.100 1579.026 281.100 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1279" />
+  </g>
+  <g
+     id="p-17"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1579.026 266.800 H 1581.926 C 1582.026 266.800 1581.926 266.700 1581.926 266.800 V 267.300 C 1581.926 267.355 1581.971 267.400 1582.026 267.400 H 1587.926 C 1588.026 267.400 1587.926 267.300 1587.926 267.400 V 270.300 C 1587.926 270.355 1587.971 270.400 1588.026 270.400 H 1591.026 C 1591.082 270.400 1591.126 270.355 1591.126 270.300 V 267.400 C 1591.126 267.300 1591.026 267.400 1591.126 267.400 H 1600.026 C 1600.082 267.400 1600.126 267.355 1600.126 267.300 V 264.400 C 1600.126 264.300 1600.026 264.400 1600.126 264.400 H 1603.026 C 1603.082 264.400 1603.126 264.355 1603.126 264.300 V 261.300 C 1603.126 261.245 1603.082 261.200 1603.026 261.200 H 1597.026 C 1596.971 261.200 1596.926 261.245 1596.926 261.300 V 262.693 C 1596.926 262.800 1597.033 262.700 1596.926 262.693 L 1582.369 261.675 C 1582.311 261.671 1582.262 261.717 1582.262 261.775 V 263.275 C 1582.262 263.327 1582.303 263.371 1582.355 263.374 L 1597.019 264.400 C 1596.999 264.398 1596.979 264.391 1596.963 264.377 C 1596.947 264.364 1596.936 264.347 1596.930 264.327 C 1596.924 264.307 1596.925 264.286 1596.932 264.266 C 1596.939 264.247 1596.952 264.230 1596.969 264.218 C 1596.986 264.206 1597.006 264.200 1597.026 264.200 H 1582.126 C 1582.026 264.200 1582.126 264.300 1582.126 264.200 V 261.300 C 1582.126 261.245 1582.082 261.200 1582.026 261.200 H 1579.026 C 1578.971 261.200 1578.926 261.245 1578.926 261.300 V 266.700 C 1578.926 266.755 1578.971 266.800 1579.026 266.800 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1282" />
+  </g>
+  <g
+     id="p-18"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1579.026 256.100 H 1581.926 C 1582.026 256.100 1581.926 256.000 1581.926 256.100 V 256.600 C 1581.926 256.655 1581.971 256.700 1582.026 256.700 H 1587.926 C 1588.026 256.700 1587.926 256.600 1587.926 256.700 V 259.600 C 1587.926 259.655 1587.971 259.700 1588.026 259.700 H 1591.026 C 1591.082 259.700 1591.126 259.655 1591.126 259.600 V 256.700 C 1591.126 256.600 1591.026 256.700 1591.126 256.700 H 1600.026 C 1600.082 256.700 1600.126 256.655 1600.126 256.600 V 253.700 C 1600.126 253.600 1600.026 253.700 1600.126 253.700 H 1603.026 C 1603.082 253.700 1603.126 253.655 1603.126 253.600 V 250.600 C 1603.126 250.545 1603.082 250.500 1603.026 250.500 H 1597.026 C 1596.971 250.500 1596.926 250.545 1596.926 250.600 V 251.993 C 1596.926 252.100 1597.033 252.000 1596.926 251.993 L 1582.369 250.975 C 1582.311 250.971 1582.262 251.017 1582.262 251.075 V 252.575 C 1582.262 252.627 1582.303 252.671 1582.355 252.674 L 1597.019 253.700 C 1596.999 253.698 1596.979 253.691 1596.963 253.677 C 1596.947 253.664 1596.936 253.647 1596.930 253.627 C 1596.924 253.607 1596.925 253.586 1596.932 253.566 C 1596.939 253.547 1596.952 253.530 1596.969 253.518 C 1596.986 253.506 1597.006 253.500 1597.026 253.500 H 1582.126 C 1582.026 253.500 1582.126 253.600 1582.126 253.500 V 250.600 C 1582.126 250.545 1582.082 250.500 1582.026 250.500 H 1579.026 C 1578.971 250.500 1578.926 250.545 1578.926 250.600 V 256.000 C 1578.926 256.055 1578.971 256.100 1579.026 256.100 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1285" />
+  </g>
+  <g
+     id="p-19"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1580.526 249.000 H 1583.376 C 1583.432 249.000 1583.476 248.955 1583.476 248.900 V 241.350 C 1583.476 241.250 1583.376 241.350 1583.476 241.350 H 1586.576 C 1586.676 241.350 1586.576 241.250 1586.576 241.350 V 248.900 C 1586.576 248.955 1586.621 249.000 1586.676 249.000 H 1589.526 C 1589.582 249.000 1589.626 248.955 1589.626 248.900 V 246.000 C 1589.626 245.900 1589.526 246.000 1589.626 246.000 H 1591.026 C 1591.082 246.000 1591.126 245.955 1591.126 245.900 V 239.900 C 1591.126 239.873 1591.116 239.848 1591.097 239.829 L 1588.097 236.829 C 1588.078 236.811 1588.053 236.800 1588.026 236.800 H 1582.026 C 1582.000 236.800 1581.974 236.811 1581.956 236.829 L 1578.956 239.829 C 1578.937 239.848 1578.926 239.873 1578.926 239.900 V 245.900 C 1578.926 245.955 1578.971 246.000 1579.026 246.000 H 1580.426 C 1580.526 246.000 1580.426 245.900 1580.426 246.000 V 248.900 C 1580.426 248.955 1580.471 249.000 1580.526 249.000 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1288" />
+  </g>
+  <g
+     id="p-20"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1594.226 249.000 H 1597.076 C 1597.132 249.000 1597.176 248.955 1597.176 248.900 V 241.350 C 1597.176 241.250 1597.076 241.350 1597.176 241.350 H 1600.276 C 1600.376 241.350 1600.276 241.250 1600.276 241.350 V 248.900 C 1600.276 248.955 1600.321 249.000 1600.376 249.000 H 1603.226 C 1603.282 249.000 1603.326 248.955 1603.326 248.900 V 246.000 C 1603.326 245.900 1603.226 246.000 1603.326 246.000 H 1604.726 C 1604.782 246.000 1604.826 245.955 1604.826 245.900 V 239.900 C 1604.826 239.873 1604.816 239.848 1604.797 239.829 L 1601.797 236.829 C 1601.778 236.811 1601.753 236.800 1601.726 236.800 H 1595.726 C 1595.700 236.800 1595.674 236.811 1595.656 236.829 L 1592.656 239.829 C 1592.637 239.848 1592.626 239.873 1592.626 239.900 V 245.900 C 1592.626 245.955 1592.671 246.000 1592.726 246.000 H 1594.126 C 1594.226 246.000 1594.126 245.900 1594.126 246.000 V 248.900 C 1594.126 248.955 1594.171 249.000 1594.226 249.000 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1291" />
+  </g>
+  <g
+     id="p-21"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1580.526 235.300 H 1583.376 C 1583.432 235.300 1583.476 235.255 1583.476 235.200 V 227.650 C 1583.476 227.550 1583.376 227.650 1583.476 227.650 H 1586.576 C 1586.676 227.650 1586.576 227.550 1586.576 227.650 V 235.200 C 1586.576 235.255 1586.621 235.300 1586.676 235.300 H 1589.526 C 1589.582 235.300 1589.626 235.255 1589.626 235.200 V 232.300 C 1589.626 232.200 1589.526 232.300 1589.626 232.300 H 1591.026 C 1591.082 232.300 1591.126 232.255 1591.126 232.200 V 226.200 C 1591.126 226.173 1591.116 226.148 1591.097 226.129 L 1588.097 223.129 C 1588.078 223.111 1588.053 223.100 1588.026 223.100 H 1582.026 C 1582.000 223.100 1581.974 223.111 1581.956 223.129 L 1578.956 226.129 C 1578.937 226.148 1578.926 226.173 1578.926 226.200 V 232.200 C 1578.926 232.255 1578.971 232.300 1579.026 232.300 H 1580.426 C 1580.526 232.300 1580.426 232.200 1580.426 232.300 V 235.200 C 1580.426 235.255 1580.471 235.300 1580.526 235.300 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1294" />
+  </g>
+  <g
+     id="p-22"
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+    <path
+       d="M 1594.226 235.300 H 1597.076 C 1597.132 235.300 1597.176 235.255 1597.176 235.200 V 227.650 C 1597.176 227.550 1597.076 227.650 1597.176 227.650 H 1600.276 C 1600.376 227.650 1600.276 227.550 1600.276 227.650 V 235.200 C 1600.276 235.255 1600.321 235.300 1600.376 235.300 H 1603.226 C 1603.282 235.300 1603.326 235.255 1603.326 235.200 V 232.300 C 1603.326 232.200 1603.226 232.300 1603.326 232.300 H 1604.726 C 1604.782 232.300 1604.826 232.255 1604.826 232.200 V 226.200 C 1604.826 226.173 1604.816 226.148 1604.797 226.129 L 1601.797 223.129 C 1601.778 223.111 1601.753 223.100 1601.726 223.100 H 1595.726 C 1595.700 223.100 1595.674 223.111 1595.656 223.129 L 1592.656 226.129 C 1592.637 226.148 1592.626 226.173 1592.626 226.200 V 232.200 C 1592.626 232.255 1592.671 232.300 1592.726 232.300 H 1594.126 C 1594.226 232.300 1594.126 232.200 1594.126 232.300 V 235.200 C 1594.126 235.255 1594.171 235.300 1594.226 235.300 Z"
+       stroke="rgb(0,0,0)"
+       stroke-width="0.20"
+       id="path1297" />
+  </g>
+  <circle
+     style="fill:#ff0000;fill-rule:evenodd;stroke-width:0.132291"
+     id="path1306"
+     cx="1175.2931"
+     cy="53.66642"
+     r="25" />
+  <rect
+     style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.999999"
+     id="rect1308"
+     width="70"
+     height="25"
+     x="-105.12847"
+     y="1031.2578"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.0682963"
+     id="rect1310"
+     width="10"
+     height="2.5"
+     x="-48.514854"
+     y="1065.252"
+     transform="rotate(-90)" />
+  <circle
+     style="fill:#ff0000;fill-rule:evenodd;stroke-width:0.264583"
+     id="path1312"
+     cx="1123.364"
+     cy="170.34016"
+     r="35" />
+  <rect
+     style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.1042"
+     id="rect1316"
+     width="15"
+     height="5"
+     x="1374.8361"
+     y="287.44904" />
+  <circle
+     style="fill:#ff0000;fill-rule:evenodd;stroke-width:0.0898232"
+     id="path1318"
+     cx="1031.8135"
+     cy="286.20813"
+     r="5" />
+  <circle
+     style="fill:#ff0000;fill-rule:evenodd;stroke-width:0.264583"
+     id="path1320"
+     cx="959.99902"
+     cy="39.097473"
+     r="5" />
+</svg>
